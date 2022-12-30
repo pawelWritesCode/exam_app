@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Nav({ adjustNumberOfQuestions }) {
+function Nav({options, adjustNumberOfQuestions }) {
 
     function handleOnClick(n) {
         return function() {
@@ -8,12 +8,20 @@ function Nav({ adjustNumberOfQuestions }) {
         }
     }
 
+    function renderButtons() {
+        return [10, 20].map(item => {
+            let className = ""
+            if (options.numberOfQuestions === item) {
+                className = "pickedOption"
+            }
+
+            return <button className={className} onClick={handleOnClick(item)}>Random {item}</button>
+        })
+    }
+
     return (
         <div className="nav">
-            <ul>
-                <button onClick={handleOnClick(10)}>Random 10</button>
-                <button onClick={handleOnClick(20)}>Random 20</button>
-            </ul>
+            {renderButtons()}
         </div>
     )
 }

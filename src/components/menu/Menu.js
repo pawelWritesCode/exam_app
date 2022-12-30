@@ -13,15 +13,19 @@ function Menu() {
     const [options, setOptions] = useState({"numberOfQuestions": 0})
     const [questions, setQuestions] = useState([{question: "", answer: "", possibleAnswers: {"a": "", "b": "", "c": "", "d": ""}, explanation: ""}]);
     const [phase, setPhase] = useState(phasePending)
+    const [result, setResult] = useState(0)
 
     function startEgzam() {
         const pickRandomQuestions = randomQuestionsSetGenerator(options.numberOfQuestions)
         setQuestions(pickRandomQuestions())
+        setResult(0)
         setPhase(phaseInExam)
     }
 
     function adjustNumberOfQuestions(numberOfQuestions) {
-        let newOptions = options
+        let newOptions = {
+            ...options
+        }
         newOptions.numberOfQuestions = numberOfQuestions
         setOptions(newOptions)
     }
@@ -32,7 +36,8 @@ function Menu() {
         }
     }
 
-    function finishEgzam() {
+    function finishEgzam(egzamResult) {
+        setResult(egzamResult)
         setPhase(phaseCompleted)
     }
 
@@ -53,7 +58,7 @@ function Menu() {
                 return (
                     <Result
                         numberOfQuestions={questions.length}
-                        successfullyAnsweredQuestions={10}
+                        successfullyAnsweredQuestions={result}
                         startEgzam={startEgzam}
                     />
                 )
@@ -64,21 +69,11 @@ function Menu() {
         }
     }
 
-    // function finishEgzam(progress) {
-    //     let result = 0
-    //     for (let i = 0; i < questions.length; i++) {
-    //         if ( questions[i].answer === progress[i].answer ) {
-    //             result++
-    //         }
-    //     }
-    //
-    //     setResult(result)
-    // }
-
     return (
         <div className="menu">
             <Nav
                 adjustNumberOfQuestions={adjustNumberOfQuestions}
+                options={options}
             />
 
             {renderSwitch(phase)}

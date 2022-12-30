@@ -13,23 +13,23 @@
   height: 100%;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 .nav {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   width: 20%;
-  height: 80%;
+  height: 10%;
 }
 
 .egzam {
   width: 80%;
-  height: 80%;
-  border: 1px solid blue;
+  height: 100%;
+  /*border: 1px solid blue;*/
 }
 
 .questionButtons {
@@ -39,8 +39,33 @@
   align-items: center;
 }
 
+button {
+  padding: 1em;
+  font-size: 1em;
+}
+
 .questionButton {
-  width: 30%;
+  width: 100%;
+}
+
+.correctAnswer {
+  color: green;
+}
+
+.pickedAnswer {
+  background-color: lightblue;
+}
+
+.question {
+  font-size: 1.7em;
+}
+
+.explanation {
+  font-size: 1.2em;
+}
+
+.pickedOption {
+  background-color: chartreuse;
 }
 
 @media (prefers-reduced-motion: no-preference) {

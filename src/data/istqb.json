@@ -192,7 +192,7 @@
 		"explanation": ""
 	},
 	{
-		"question": "You are responsible for the functional testing of the new mobile application for tourists. The application allows a user to plan a rouute, modify it, read info about the monuments, etc. All these functional requirements are documented in the form of use cases. Together with your team, you are planning to perform a review of the application regarding its functionality. Which review type will probably be the most benefical in this case?",
+		"question": "You are responsible for the functional testing of the new mobile application for tourists. The application allows a user to plan a route, modify it, read info about the monuments, etc. All these functional requirements are documented in the form of use cases. Together with your team, you are planning to perform a review of the application regarding its functionality. Which review type will probably be the most benefical in this case?",
 		"possibleAnswers": {
 			"a": "Scenarios and dry runs",
 			"b": "Checklist based",
@@ -900,7 +900,7 @@
 		"explanation": "a) Is not correct. The lack of familiarity of the requirements author with the\nfitness domain is a root cause\nb) Is not correct. The lack of training of the tester in state transition testing\nwas one of the root causes of the defect (the developer presumably\ncreated the defect, as well)\nc) Is correct. The incorrect configuration data represents faulty software in\nthe fitness tracker (a defect), that may cause failures\nd) Is not correct. The lack of experience in designing user interfaces for\nwearable devices is a typical example of a root cause of a defect"
 	},
 	{
-		"question": "As a result of risk analysis, more testing is being directed to those areas of the system under test\nwhere initial testing found more defects than average.\nWhich of the following testing principles is being applied?",
+		"question": "As a result of risk analysis, more testing is being directed to those areas of the system under test where initial testing found more defects than average.Which of the following testing principles is being applied?",
 		"possibleAnswers": {
 			"a": "Beware of the pesticide paradox",
 			"b": "Testing is context dependent",
@@ -924,19 +924,19 @@
 		"explanation": "The correct pairing of test activities and tasks is:\nA. Test design – (2) Identifying test data to support the test cases\nB. Test implementation – (3) Prioritizing test procedures and creating\ntest data\nC. Test execution – (4) Analyzing discrepancies to determine their\ncause\nD. Test completion – (1) Entering change requests for open defect\nreports\nThus:\na) Is correct\nb) Is not correct\nc) Is not correct\nd) Is not correct"
 	},
 	{
-		"question": "Which of the following BEST describes how value is added by maintaining traceability between the\ntest basis and test artifacts?",
+		"question": "Which of the following BEST describes how value is added by maintaining traceability between the test basis and test artifacts?",
 		"possibleAnswers": {
 			"a": "Maintenance testing can be fully automated based on changes to the initial requirements",
 			"b": "It is possible to determine if a new test case has increased coverage of the requirements",
 			"c": "Test managers can identify which testers found the highest severity defects",
-			"d": "Areas that may be impacted by side-effects of a change can be targeted by confirmation\ntesting"
+			"d": "Areas that may be impacted by side-effects of a change can be targeted by confirmation testing"
 		},
 		"answer": "b",
 		"tip": "",
 		"explanation": "a) Is not correct. Traceability will allow existing test cases to be linked with\nupdated and deleted requirements (although there is no support for new\nrequirements), but it will not help with the automation of maintenance\ntesting\nb) Is correct. If all test cases are linked with requirements, then whenever\na new test case (with traceability) is added, it is possible to see if any\npreviously uncovered requirements are covered by the new test case\nc) Is not correct. Traceability between the test basis and test artifacts will\nnot provide information on which testers found high-severity defects,\nand, even if this information could be determined, it would be of limited\nvalue\nd) Is not correct. Traceability can help with identifying test cases affected\nby changes, however areas impacted by side-effects would be the\nfocus of regression testing"
 	},
 	{
-		"question": "Which of the following qualities is MORE likely to be found in a tester’s mindset rather than in a\ndeveloper’s?",
+		"question": "Which of the following qualities is MORE likely to be found in a tester’s mindset rather than in a developer’s?",
 		"possibleAnswers": {
 			"a": "A tester ́s mindset tends to grow and mature as the tester gains experience",
 			"b": "Ability to see what might go wrong",
@@ -948,7 +948,7 @@
 		"explanation": "a) Is not correct. Both developers and testers gain from experience\nb) Is correct. Developers are often more interested in designing and\nbuilding solutions than in contemplating what might be wrong with those\nsolutions\nc) Is not correct. Both developers and testers should be able to\ncommunicate well\nd) Is not correct. Testers shall focus on the quality, not on the quantity"
 	},
 	{
-		"question": "Given the following statements about the relationships between software development activities\nand test activities in the software development lifecycle:\n1. Each development activity should have a corresponding testing activity\n2. Reviewing should start as soon as final versions of documents become available\n3. The design and implementation of tests should start during the corresponding\ndevelopment activity\n4. Testing activities should start in the early stages of the software development\nlifecycle\nWhich of the following CORRECTLY shows which are true and false?",
+		"question": "Given the following statements about the relationships between software development activities and test activities in the software development lifecycle:\n1. Each development activity should have a corresponding testing activity\n2. Reviewing should start as soon as final versions of documents become available\n3. The design and implementation of tests should start during the corresponding development activity\n4. Testing activities should start in the early stages of the software development lifecycle\nWhich of the following CORRECTLY shows which are true and false?",
 		"possibleAnswers": {
 			"a": "True – 1, 2; False – 3, 4",
 			"b": "True – 2, 3; False – 1, 4",
@@ -974,29 +974,29 @@
 	{
 		"question": "Which of the following statements about test types and test levels is CORRECT?",
 		"possibleAnswers": {
-			"a": "Functional and non-functional testing can be performed at system and acceptance test\nlevels, while white-box testing is restricted to component and integration testing",
-			"b": "Functional testing can be performed at any test level, while white-box testing is restricted to\ncomponent testing",
+			"a": "Functional and non-functional testing can be performed at system and acceptance test levels, while white-box testing is restricted to component and integration testing",
+			"b": "Functional testing can be performed at any test level, while white-box testing is restricted to component testing",
 			"c": "It is possible to perform functional, non-functional and white-box testing at any test level",
-			"d": "Functional and non-functional testing can be performed at any test level, while white-box\ntesting is restricted to component and integration testing"
+			"d": "Functional and non-functional testing can be performed at any test level, while white-box testing is restricted to component and integration testing"
 		},
 		"answer": "c",
 		"tip": "",
-		"explanation": "a) Is not correct. It is possible to perform any of the test types (functional,\nnon-functional, white-box) at any test level - so, although it is correct\nthat functional and non-functional testing can be performed at system\nand acceptance test levels, it is incorrect to state that white-box testing\nis restricted to component and integration testing\nb) Is not correct. It is possible to perform any of the test types (functional,\nnon-functional, white-box) at any test level - so, it is incorrect to state\nthat white-box testing is restricted to component testing\nc) Is correct. It is possible to perform any of the test types (functional, non-\nfunctional, white-box) at any test level\nd) Is not correct. It is possible to perform any of the test types (functional,\nnon-functional, white-box) at any test level - so, it is incorrect to state\nthat white-box testing is restricted to component testing and integration\ntesting"
+		"explanation": "a) Is not correct. It is possible to perform any of the test types (functional, non-functional, white-box) at any test level - so, although it is correct that functional and non-functional testing can be performed at system and acceptance test levels, it is incorrect to state that white-box testing\nis restricted to component and integration testing\nb) Is not correct. It is possible to perform any of the test types (functional,\nnon-functional, white-box) at any test level - so, it is incorrect to state\nthat white-box testing is restricted to component testing\nc) Is correct. It is possible to perform any of the test types (functional, non-\nfunctional, white-box) at any test level\nd) Is not correct. It is possible to perform any of the test types (functional,\nnon-functional, white-box) at any test level - so, it is incorrect to state\nthat white-box testing is restricted to component testing and integration\ntesting"
 	},
 	{
-		"question": "Which of the following statements BEST compares the purposes of confirmation testing and\nregression testing?",
+		"question": "Which of the following statements BEST compares the purposes of confirmation testing and regression testing?",
 		"possibleAnswers": {
-			"a": "The purpose of regression testing is to ensure that all previously run tests still work\ncorrectly, while the purpose of confirmation testing is to ensure that any fixes made to one\npart of the system have not adversely affected other parts",
-			"b": "The purpose of confirmation testing is to check that a previously found defect has been\nfixed, while the purpose of regression testing is to ensure that no other parts of the system\nhave been adversely affected by the fix",
-			"c": "The purpose of regression testing is to ensure that any changes to one part of the system\nhave not caused another part to fail, while the purpose of confirmation testing is to check\nthat all previously run tests still provide the same results as before",
-			"d": "The purpose of confirmation testing is to confirm that changes to the system were made\nsuccessfully, while the purpose of regression testing is to run tests that previously failed to\nensure that they now work correctly"
+			"a": "The purpose of regression testing is to ensure that all previously run tests still work correctly, while the purpose of confirmation testing is to ensure that any fixes made to one\npart of the system have not adversely affected other parts",
+			"b": "The purpose of confirmation testing is to check that a previously found defect has been fixed, while the purpose of regression testing is to ensure that no other parts of the system\nhave been adversely affected by the fix",
+			"c": "The purpose of regression testing is to ensure that any changes to one part of the system have not caused another part to fail, while the purpose of confirmation testing is to check\nthat all previously run tests still provide the same results as before",
+			"d": "The purpose of confirmation testing is to confirm that changes to the system were made successfully, while the purpose of regression testing is to run tests that previously failed to\nensure that they now work correctly"
 		},
 		"answer": "b",
 		"tip": "",
 		"explanation": "a) Is not correct. Although the description of regression testing is largely\ncorrect, the description of confirmation testing (which should be testing\na defect has been fixed) is not correct\nb) Is correct. The descriptions of both confirmation and regression testing\nmatch the intent of those in the syllabus\nc) Is not correct. Although the description of regression testing is largely\ncorrect, the description of confirmation testing (re-running all previously\nrun tests to get the same results) is not correct, as the purpose of\nconfirmation testing is to check that tests that previously failed now\npass (the fix worked)\nd) Is not correct. Although the description of confirmation testing is largely\ncorrect, the description of regression testing (re-running tests that\npreviously failed) is not correct (this is a more detailed description of\nconfirmation testing)"
 	},
 	{
-		"question": "Which of the following statements CORRECTLY describes a role of impact analysis in\nMaintenance Testing?",
+		"question": "Which of the following statements CORRECTLY describes a role of impact analysis in Maintenance Testing?",
 		"possibleAnswers": {
 			"a": "Impact analysis is used when deciding if a fix to a maintained system is worthwhile",
 			"b": "Impact analysis is used to identify how data should be migrated into the maintained system",
@@ -1005,15 +1005,15 @@
 		},
 		"answer": "a",
 		"tip": "",
-		"explanation": "a) Is correct. Impact analysis may be used to identify those areas of the\nsystem that will be affected by the fix, and so the extent of the impact\n(e.g., necessary regression testing) can be used when deciding if the\nchange is worthwhile\nb) Is not correct. Although testing migrated data is part of maintenance\ntesting (see conversion testing), impact analysis does not identify how\nthis is done\nc) Is not correct. Impact analysis shows which parts of a system are\naffected by a change, so it can show the difference between different\nhot fixes in terms of the impact on the system, however it does not give\nany indication of the value of the changes to the user\nd) Is not correct. Impact analysis shows which parts of a system are\naffected by a change; it cannot provide an indication of the\neffectiveness of test cases"
+		"explanation": "a) Is correct. Impact analysis may be used to identify those areas of the system that will be affected by the fix, and so the extent of the impact (e.g., necessary regression testing) can be used when deciding if the change is worthwhile\nb) Is not correct. Although testing migrated data is part of maintenance testing (see conversion testing), impact analysis does not identify how\nthis is done\nc) Is not correct. Impact analysis shows which parts of a system are\naffected by a change, so it can show the difference between different\nhot fixes in terms of the impact on the system, however it does not give\nany indication of the value of the changes to the user\nd) Is not correct. Impact analysis shows which parts of a system are\naffected by a change; it cannot provide an indication of the\neffectiveness of test cases"
 	},
 	{
 		"question": "Which of the following statements CORRECTLY reflects the value of static testing?",
 		"possibleAnswers": {
-			"a": "By introducing reviews, we have found that both the quality of specifications and the time\nrequired for development and testing have increased",
-			"b": "Using static testing means we have better control and cheaper defect management due to\nthe ease of detecting defects later in the lifecycle",
-			"c": "Now that we require the use of static analysis, missed requirements have decreased and\ncommunication between testers and developers has improved",
-			"d": "Since we started using static analysis, we find coding defects that might have not been\nfound by performing only dynamic testing"
+			"a": "By introducing reviews, we have found that both the quality of specifications and the time required for development and testing have increased",
+			"b": "Using static testing means we have better control and cheaper defect management due to the ease of detecting defects later in the lifecycle",
+			"c": "Now that we require the use of static analysis, missed requirements have decreased and communication between testers and developers has improved",
+			"d": "Since we started using static analysis, we find coding defects that might have not been found by performing only dynamic testing"
 		},
 		"answer": "d",
 		"tip": "",
@@ -1023,8 +1023,8 @@
 		"question": "Which of the following statements on the use of checklists in a formal review is CORRECT?",
 		"possibleAnswers": {
 			"a": "As part of the review planning, the reviewers create the checklists needed for the review",
-			"b": "As part of the issue communication, the reviewers fill in the checklists provided for the\nreview",
-			"c": "As part of the review meeting, the reviewers create defect reports based on the checklists\nprovided for the review",
+			"b": "As part of the issue communication, the reviewers fill in the checklists provided for the review",
+			"c": "As part of the review meeting, the reviewers create defect reports based on the checklists provided for the review",
 			"d": "As part of the review initiation, the reviewers receive the checklists needed for the review"
 		},
 		"answer": "d",
@@ -1056,7 +1056,7 @@
 		"explanation": "Considering the attributes:\n• There is a role of a scribe – specified for walkthroughs, technical\nreviews, and inspections; thus, the reviews being performed cannot\nbe informal reviews\n• The purpose is to detect potential defects – the purpose of detecting\npotential defects is specified for all types of review.\n• The review meeting is led by the author – this is not allowed for\ninspections and is typically not the author for technical reviews, but\nis part of walkthroughs, and allowed for informal reviews\n• Reviewers find potential issues by individual review - all types of\nreviews can include individual review (even informal reviews)\n• A review report is produced - all types of reviews can produce a\nreview report, although it would be less likely for an informal review\nThus:\na) Is not correct\nb) Is correct\nc) Is not correct\nd) Is not correct"
 	},
 	{
-		"question": "You have been asked to take part in a checklist-based review of the following excerpt from the\nrequirements specification for a library system:\nLibrarians can:\n1. Register new borrowers\n2. Return books from borrowers\n3. Accept fines from borrowers\n4. Add new books to the system with their ISBN, author and title\n5. Remove books from the system\n6. Get system responses within 5 seconds\nBorrowers can:\n7. Borrow a maximum of 3 books at one time\n8. View the history of books they have borrowed/reserved\n9. Be fined for failing to return a book within 3 weeks\n10. Get system responses within 3 seconds\n11. Borrow a book at no cost for a maximum of 4 weeks\n12. Reserve books (if they are on-loan)\nAll users (librarians and borrowers):\n13. Can search for books by ISBN, author, or title\n14. Can browse the system catalogue\n15. The system shall respond to user requests within 3 seconds\n16. The user interface shall be easy-to-use\nYou have been assigned the checklist entry that requires you to review the specification for\ninconsistencies between individual requirements (i.e., conflicts between requirements).\nWhich of the following CORRECTLY identifies inconsistencies between pairs of requirements?",
+		"question": "You have been asked to take part in a checklist-based review of the following excerpt from the requirements specification for a library system. Librarians can:\n1. Register new borrowers\n2. Return books from borrowers\n3. Accept fines from borrowers\n4. Add new books to the system with their ISBN, author and title\n5. Remove books from the system\n6. Get system responses within 5 seconds\nBorrowers can:\n7. Borrow a maximum of 3 books at one time\n8. View the history of books they have borrowed/reserved\n9. Be fined for failing to return a book within 3 weeks\n10. Get system responses within 3 seconds\n11. Borrow a book at no cost for a maximum of 4 weeks\n12. Reserve books (if they are on-loan)\nAll users (librarians and borrowers):\n13. Can search for books by ISBN, author, or title\n14. Can browse the system catalogue\n15. The system shall respond to user requests within 3 seconds\n16. The user interface shall be easy-to-use\nYou have been assigned the checklist entry that requires you to review the specification for inconsistencies between individual requirements (i.e., conflicts between requirements). Which of the following CORRECTLY identifies inconsistencies between pairs of requirements?",
 		"possibleAnswers": {
 			"a": "6-10, 6-15, 7-12",
 			"b": "6-15, 9-11",
@@ -1070,9 +1070,9 @@
 	{
 		"question": "Which of the following provides the BEST description of exploratory testing?",
 		"possibleAnswers": {
-			"a": "A testing practice in which an in-depth investigation of the background of the test object is\nused to identify potential weaknesses that are examined by test cases",
-			"b": "An approach to testing whereby the testers dynamically design and execute tests based on\ntheir knowledge, exploration of the test item and the results of previous tests",
-			"c": "An approach to test design in which test activities are planned as uninterrupted sessions of\ntest analysis and design, often used in conjunction with checklist-based testing",
+			"a": "A testing practice in which an in-depth investigation of the background of the test object is used to identify potential weaknesses that are examined by test cases",
+			"b": "An approach to testing whereby the testers dynamically design and execute tests based on their knowledge, exploration of the test item and the results of previous tests",
+			"c": "An approach to test design in which test activities are planned as uninterrupted sessions of test analysis and design, often used in conjunction with checklist-based testing",
 			"d": "Testing based on the tester's experience, knowledge, and intuition"
 		},
 		"answer": "b",
@@ -1080,7 +1080,7 @@
 		"explanation": "a) Is not correct. Exploratory testing is often carried out when timescales\nare short, so making in-depth investigations of the background of the\ntest object is unlikely\nb) Is correct. Glossary definition\nc) Is not correct. Based on the Glossary definition of session-based\ntesting, but with test execution replaced by test analysis\nd) Is not correct. Glossary definition of experience-based testing"
 	},
 	{
-		"question": "Which of the following BEST matches the descriptions with the different categories of test\ntechniques?\n1. Coverage is measured based on a selected structure of the test object\n2. The processing within the test object is checked\n3. Tests are based on defects’ likelihood and their distribution\n4. Deviations from the requirements are checked\n5. User stories are used as the test basis\nUsing notation for the following 4 options:\nBlack - Black-box test techniques\nWhite - White-box test techniques\nExperience - Experience-based test techniques",
+		"question": "Which of the following BEST matches the descriptions with the different categories of test techniques?\n1. Coverage is measured based on a selected structure of the test object\n2. The processing within the test object is checked\n3. Tests are based on defects’ likelihood and their distribution\n4. Deviations from the requirements are checked\n5. User stories are used as the test basis\nUsing notation for the following 4 options:\nBlack - Black-box test techniques\nWhite - White-box test techniques\nExperience - Experience-based test techniques",
 		"possibleAnswers": {
 			"a": "Black – 4, 5 White – 1, 2; Experience – 3",
 			"b": "Black – 3 White – 1, 2; Experience – 4, 5",
@@ -1092,7 +1092,7 @@
 		"explanation": "The correct pairing of descriptions with the different categories of test\ntechniques is:\n• Black-box test techniques\nDeviations from the requirements are checked (4) User stories are\nused as the test basis (5)\n• White-box test techniques\nCoverage is measured based on a selected structure of the test\nobject (1) The processing within the test object is checked (2)\n• Experience-based test techniques\nTests are based on defects’ likelihood and their distribution (3)\nThus:\na) Is correct\nb) Is not correct\nc) Is not correct\nd) Is not correct"
 	},
 	{
-		"question": "A fitness app measures the number of steps that are walked each day and provides feedback to\nencourage the user to keep fit.\nThe feedback for different numbers of steps should be:\nUp to 1000 - Couch Potato!\nAbove 1000, up to 2000 - Lazy Bones!\nAbove 2000, up to 4000 - Getting There!\nAbove 4000, up to 6000 - Not Bad!\nAbove 6000 - Way to Go!\nWhich of the following sets of test inputs would achieve the BEST equivalence partition coverage?",
+		"question": "A fitness app measures the number of steps that are walked each day and provides feedback to encourage the user to keep fit.The feedback for different numbers of steps should be:\nUp to 1000 - Couch Potato!\nAbove 1000, up to 2000 - Lazy Bones!\nAbove 2000, up to 4000 - Getting There!\nAbove 4000, up to 6000 - Not Bad!\nAbove 6000 - Way to Go!\nWhich of the following sets of test inputs would achieve the BEST equivalence partition coverage?",
 		"possibleAnswers": {
 			"a": "0, 1000, 2000, 3000, 4000",
 			"b": "1000, 2001, 4000, 4001, 6000",
@@ -1104,7 +1104,7 @@
 		"explanation": "The following valid equivalence partitions can be identified:\n1. Up to 1000 - Couch Potato!\n2. Above 1000, up to 2000 - Lazy Bones!\n3. Above 2000, up to 4000 - Getting There!\n4. Above 4000, up to 6000 - Not Bad!\n5. Above 6000 - Way to Go!\nThe sets of test inputs therefore cover the following partitions:\na) Is not correct. 0 (1), 1000 (1), 2000 (2), 3000 (3), 4000 (3) – 3 partitions\n(out of 5)\nb) Is not correct. 1000 (1), 2001 (3), 4000 (3), 4001 (4), 6000 (4) – 3\npartitions (out of 5)\nc) Is not correct. 123 (1), 2345 (3), 3456 (3), 4567 (4), 5678 (4) – 3\npartitions (out of 5)\nd) Is correct. 666 (1), 999 (1), 2222 (3), 5555 (4), 6666 (5) – 4 partitions\n(out of 5)"
 	},
 	{
-		"question": "A smart home app measures the average temperature in the house over the previous week and\nprovides feedback to the occupants on their environmental friendliness based on this temperature.\nThe feedback for different average temperature ranges (to the nearest °C) should be:\nUp to 10°C - Icy Cool!\n11°C to 15°C - Chilled Out!\n16°C to 19°C - Cool Man!\n20°C to 22°C - Too Warm!\nAbove 22°C - Hot & Sweaty!\nUsing BVA (only Min- and Max values), which of the following sets of test inputs provides the\nhighest level of boundary coverage?",
+		"question": "A smart home app measures the average temperature in the house over the previous week and provides feedback to the occupants on their environmental friendliness based on this temperature. The feedback for different average temperature ranges (to the nearest °C) should be:\nUp to 10°C - Icy Cool!\n11°C to 15°C - Chilled Out!\n16°C to 19°C - Cool Man!\n20°C to 22°C - Too Warm!\nAbove 22°C - Hot & Sweaty!\nUsing BVA (only Min- and Max values), which of the following sets of test inputs provides the highest level of boundary coverage?",
 		"possibleAnswers": {
 			"a": "0°C, 11°C, 20°C, 22°C, 23°C",
 			"b": "9°C, 15°C, 19°C, 23°C, 100°C",
@@ -1118,10 +1118,10 @@
 	{
 		"question": "Which of the following statements BEST describes how test cases are derived from a use case?",
 		"possibleAnswers": {
-			"a": "Test cases are created to exercise defined basic, exceptional and error behaviors\nperformed by the system under test in collaboration with actors",
-			"b": "Test cases are derived by identifying the components included in the use case and creating\nintegration tests that exercise the interactions of these components",
-			"c": "Test cases are generated by analyzing the interactions of the actors with the system to\nensure the user interfaces are easy to use",
-			"d": "Test cases are derived to exercise each of the decision points in the business process\nflows of the use case, to achieve 100% decision coverage of these flows"
+			"a": "Test cases are created to exercise defined basic, exceptional and error behaviors performed by the system under test in collaboration with actors",
+			"b": "Test cases are derived by identifying the components included in the use case and creating integration tests that exercise the interactions of these components",
+			"c": "Test cases are generated by analyzing the interactions of the actors with the system to ensure the user interfaces are easy to use",
+			"d": "Test cases are derived to exercise each of the decision points in the business process flows of the use case, to achieve 100% decision coverage of these flows"
 		},
 		"answer": "a",
 		"tip": "",
@@ -1131,9 +1131,9 @@
 		"question": "Which of the following descriptions of statement coverage is CORRECT?",
 		"possibleAnswers": {
 			"a": "Statement coverage is a measure of the number of lines of source code exercised by tests",
-			"b": "Statement coverage is a measure of the proportion of executable statements in the source\ncode exercised by tests",
-			"c": "Statement coverage is a measure of the percentage of lines of source code (without\ncomments) exercised by tests",
-			"d": "Statement coverage is a measure of the number of executable statements in the source\ncode exercised by tests"
+			"b": "Statement coverage is a measure of the proportion of executable statements in the source code exercised by tests",
+			"c": "Statement coverage is a measure of the percentage of lines of source code (without comments) exercised by tests",
+			"d": "Statement coverage is a measure of the number of executable statements in the source code exercised by tests"
 		},
 		"answer": "b",
 		"tip": "",
@@ -1142,10 +1142,10 @@
 	{
 		"question": "Which of the following descriptions of decision coverage is CORRECT?",
 		"possibleAnswers": {
-			"a": "Decision coverage is a measure of the percentage of possible paths through the source\ncode exercised by tests",
-			"b": "Decision coverage is a measure of the percentage of business flows through the\ncomponent exercised by tests",
-			"c": "Decision coverage is a measure of the ‘if’ statements in the code that are exercised with\nboth the true and false outcomes",
-			"d": "Decision coverage is a measure of the proportion of decision outcomes in the source code\nexercised by tests"
+			"a": "Decision coverage is a measure of the percentage of possible paths through the source code exercised by tests",
+			"b": "Decision coverage is a measure of the percentage of business flows through the component exercised by tests",
+			"c": "Decision coverage is a measure of the ‘if’ statements in the code that are exercised with both the true and false outcomes",
+			"d": "Decision coverage is a measure of the proportion of decision outcomes in the source code exercised by tests"
 		},
 		"answer": "d",
 		"tip": "",
@@ -1154,10 +1154,10 @@
 	{
 		"question": "Which of the following BEST describes the concept behind error guessing?",
 		"possibleAnswers": {
-			"a": "Error guessing requires you to imagine you are the user of the test object and guess\nmistakes the user could make interacting with it",
-			"b": "Error guessing involves using your personal experience of development and the mistakes\nyou made as a developer",
-			"c": "Error guessing involves using your knowledge and experience of defects found in the past\nand typical mistakes made by developers",
-			"d": "Error guessing requires you to rapidly duplicate the development task to identify the sort of\nmistakes a developer might make"
+			"a": "Error guessing requires you to imagine you are the user of the test object and guess mistakes the user could make interacting with it",
+			"b": "Error guessing involves using your personal experience of development and the mistakes you made as a developer",
+			"c": "Error guessing involves using your knowledge and experience of defects found in the past and typical mistakes made by developers",
+			"d": "Error guessing requires you to rapidly duplicate the development task to identify the sort of mistakes a developer might make"
 		},
 		"answer": "c",
 		"tip": "",
@@ -1166,10 +1166,10 @@
 	{
 		"question": "Which of the following BEST explains a benefit of independent testing?",
 		"possibleAnswers": {
-			"a": "The use of an independent test team allows project management to assign responsibility for\nthe quality of the final deliverable to the test team, so ensuring everyone is aware that\nquality is the test team’s overall responsibility",
-			"b": "If a test team external to the organization can be afforded, then there are distinct benefits in\nterms of this external team not being so easily swayed by the delivery concerns of project\nmanagement and the need to meet strict delivery deadlines",
-			"c": "An independent test team can work totally separately from the developers, need not be\ndistracted with changing project requirements, and can restrict communication with the\ndevelopers to defect reporting through the defect management system",
-			"d": "When specifications contain ambiguities and inconsistencies, assumptions are made on\ntheir interpretation, and an independent tester can be useful in questioning those\nassumptions and the interpretation made by the developer"
+			"a": "The use of an independent test team allows project management to assign responsibility for the quality of the final deliverable to the test team, so ensuring everyone is aware that quality is the test team’s overall responsibility",
+			"b": "If a test team external to the organization can be afforded, then there are distinct benefits in terms of this external team not being so easily swayed by the delivery concerns of project management and the need to meet strict delivery deadlines",
+			"c": "An independent test team can work totally separately from the developers, need not be distracted with changing project requirements, and can restrict communication with the developers to defect reporting through the defect management system",
+			"d": "When specifications contain ambiguities and inconsistencies, assumptions are made on their interpretation, and an independent tester can be useful in questioning those assumptions and the interpretation made by the developer"
 		},
 		"answer": "d",
 		"tip": "",
@@ -1202,10 +1202,10 @@
 	{
 		"question": "Which of the following statements about test estimation approaches is CORRECT?",
 		"possibleAnswers": {
-			"a": "With the metrics-based approach, the estimate is based on test measures from the project\nand so this estimate is only available after the testing starts",
-			"b": "With the expert-based approach, a group of expert users identified by the client\nrecommends the necessary testing budget",
-			"c": "With the expert-based approach, the test managers responsible for the different testing\nactivities predict the expected testing effort",
-			"d": "With the metrics-based approach, an average of the testing costs recorded from several\npast projects is used as the testing budget"
+			"a": "With the metrics-based approach, the estimate is based on test measures from the project and so this estimate is only available after the testing starts",
+			"b": "With the expert-based approach, a group of expert users identified by the client recommends the necessary testing budget",
+			"c": "With the expert-based approach, the test managers responsible for the different testing activities predict the expected testing effort",
+			"d": "With the metrics-based approach, an average of the testing costs recorded from several past projects is used as the testing budget"
 		},
 		"answer": "c",
 		"tip": "",
@@ -1214,10 +1214,10 @@
 	{
 		"question": "Which of the following BEST defines risk level?",
 		"possibleAnswers": {
-			"a": "Risk level is calculated by adding together the probabilities of all problem situations and the\nfinancial harm that results from them",
-			"b": "Risk level is estimated by multiplying the likelihood of a threat to the system by the chance\nthat the threat will occur and will result in financial damage",
-			"c": "Risk level is determined by a combination of the probability of an undesirable event and the\nexpected impact of that event",
-			"d": "Risk level is the sum of all potential hazards to a system multiplied by the sum of all\npotential losses from that system"
+			"a": "Risk level is calculated by adding together the probabilities of all problem situations and the financial harm that results from them",
+			"b": "Risk level is estimated by multiplying the likelihood of a threat to the system by the chance that the threat will occur and will result in financial damage",
+			"c": "Risk level is determined by a combination of the probability of an undesirable event and the expected impact of that event",
+			"d": "Risk level is the sum of all potential hazards to a system multiplied by the sum of all potential losses from that system"
 		},
 		"answer": "c",
 		"tip": "",
@@ -1233,22 +1233,22 @@
 		},
 		"answer": "a",
 		"tip": "",
-		"explanation": "a) Is correct. If the expected security features are not supported by the\nsystem architecture, then the system could be seriously flawed. As the\nsystem being produced is the problem here, it is a product risk\nb) Is not correct. If the developers run over budget, or run out of time, that\nis a problem with the running of the project – it is a project risk\nc) Is not correct. If the test cases do not provide full coverage of the\nrequirements, this means the testing may not fulfil the requirements of\nthe test plan – it is a project risk\nd) Is not correct. If the test environment is not ready, this means the\ntesting may not be done, or it may have to be done on a different\nenvironment and it is impacting how the project is run – it is a project\nrisk"
+		"explanation": "a) Is correct. If the expected security features are not supported by the system architecture, then the system could be seriously flawed. As the\nsystem being produced is the problem here, it is a product risk\nb) Is not correct. If the developers run over budget, or run out of time, that\nis a problem with the running of the project – it is a project risk\nc) Is not correct. If the test cases do not provide full coverage of the\nrequirements, this means the testing may not fulfil the requirements of\nthe test plan – it is a project risk\nd) Is not correct. If the test environment is not ready, this means the\ntesting may not be done, or it may have to be done on a different\nenvironment and it is impacting how the project is run – it is a project\nrisk"
 	},
 	{
-		"question": "Which of the following is LEAST likely to be an example of product risk analysis CORRECTLY\ninfluencing the testing?",
+		"question": "Which of the following is LEAST likely to be an example of product risk analysis CORRECTLY influencing the testing?",
 		"possibleAnswers": {
-			"a": "The potential impact of security flaws has been identified as being particularly high, so\nsecurity testing has been prioritized ahead of some other testing activities",
-			"b": "Testing has found the quality of the network module to be higher than expected, so\nadditional testing will be performed in that area",
-			"c": "The users had problems with the user interface of the previous system, so additional\nusability testing is planned for the replacement system",
-			"d": "The time needed to load web pages is crucial to the success of the new website, so an\nexpert in performance testing has been employed for this project"
+			"a": "The potential impact of security flaws has been identified as being particularly high, so security testing has been prioritized ahead of some other testing activities",
+			"b": "Testing has found the quality of the network module to be higher than expected, so additional testing will be performed in that area",
+			"c": "The users had problems with the user interface of the previous system, so additional usability testing is planned for the replacement system",
+			"d": "The time needed to load web pages is crucial to the success of the new website, so an expert in performance testing has been employed for this project"
 		},
 		"answer": "b",
 		"tip": "",
 		"explanation": "This question is looking for bad application of product risk analysis.\na) Is not correct. As we are told security flaws have a particularly high\nimpact, their risk level will be higher, and thus we have prioritized the\nsecurity testing ahead of some other testing. Thus, product risk analysis\nhas influenced the testing properly.\nb) Is correct. As less defects than expected have been found in the\nnetwork module, the perceived risk in this area should be lower, and so\nless testing should be focused on this area, NOT additional testing.\nThus, product risk analysis has NOT CORRECTLY influenced the\ntesting in this situation\nc) Is not correct. Because the users had problems with the user interface\nof the previous system, there is now high awareness of the risk\nassociated with the user interface, which has resulted in additional\nusability testing being planned. Thus, product risk analysis has properly\ninfluenced the thoroughness and scope of testing\nd) Is not correct. As the time needed to load web pages has been\nidentified as crucial to the success of the new website, the performance\nof the website should be considered a risk, and the employment of an\nexpert in performance testing helps to mitigate this risk. Thus, product\nrisk analysis has properly influenced the testing"
 	},
 	{
-		"question": "You are performing system testing of a train reservation system. Based on the test cases\nperformed, you have noticed that the system occasionally reports that no trains are available,\nalthough this should be the case. You have provided the developers with a summary of the defect\nand the version of the tested system. They recognize the urgency of the defect and are now\nwaiting for you to provide further details.\nIn addition to the information already provided, the following additional information is given:\n1. Degree of impact (severity) of the defect\n2. Identification of the test object\n3. Details of the test environment\n4. Urgency/priority to fix\n5. Actual results\n6. Reference to test case specification\nWhich of this additional information is most useful to include in the defect report?",
+		"question": "You are performing system testing of a train reservation system. Based on the test cases performed, you have noticed that the system occasionally reports that no trains are available, although this should be the case. You have provided the developers with a summary of the defect and the version of the tested system. They recognize the urgency of the defect and are now waiting for you to provide further details. In addition to the information already provided, the following additional information is given:\n1. Degree of impact (severity) of the defect\n2. Identification of the test object\n3. Details of the test environment\n4. Urgency/priority to fix\n5. Actual results\n6. Reference to test case specification\nWhich of this additional information is most useful to include in the defect report?",
 		"possibleAnswers": {
 			"a": "1, 2, 6",
 			"b": "1, 4, 5, 6",
@@ -1272,11 +1272,11 @@
 		"explanation": "The correct pairings of test activities and test tools are:\n1. Performance measurement and dynamic analysis – (b) Dynamic\nanalysis tools\n2. Test execution and logging – (a) Code coverage tools\n3. Management of testing and testware – (d) Defect management tools\n4. Test design – (c) Test data preparation tools\nThus:\na) Is not correct\nb) Is not correct\nc) Is correct\nd) Is not correct"
 	},
 	{
-		"question": "Which of the following is MOST likely to be used as a reason for using a pilot project to introduce a\ntool into an organization?",
+		"question": "Which of the following is MOST likely to be used as a reason for using a pilot project to introduce a tool into an organization?",
 		"possibleAnswers": {
-			"a": "The need to evaluate how the tool fits with existing processes and practices and\ndetermining what would need to change",
-			"b": "The need to evaluate the test automation skills and training, mentoring and coaching needs\nof the testers who will use the tool",
-			"c": "The need to evaluate whether the tool provides the required functionality and does not\nduplicate existing test tools",
+			"a": "The need to evaluate how the tool fits with existing processes and practices and determining what would need to change",
+			"b": "The need to evaluate the test automation skills and training, mentoring and coaching needs of the testers who will use the tool",
+			"c": "The need to evaluate whether the tool provides the required functionality and does not duplicate existing test tools",
 			"d": "The need to evaluate the tool vendor in terms of the training and other support they provide"
 		},
 		"answer": "a",
@@ -1287,9 +1287,9 @@
 		"question": "What is quality?",
 		"possibleAnswers": {
 			"a": "Activities focused on providing confidence that quality requirements will be fulfilled",
-			"b": "The degree to which a component or system satisfies the stated and implied needs of its\nvarious stakeholders",
-			"c": "The degree to which a component or system protects information and data so that persons\nor other components or systems have the degree of access appropriate to their types and\nlevels of authorization",
-			"d": "The total costs incurred on quality activities and issues and often split into prevention costs,\nappraisal costs, internal failure costs and external failure costs"
+			"b": "The degree to which a component or system satisfies the stated and implied needs of its various stakeholders",
+			"c": "The degree to which a component or system protects information and data so that persons or other components or systems have the degree of access appropriate to their types and levels of authorization",
+			"d": "The total costs incurred on quality activities and issues and often split into prevention costs, appraisal costs, internal failure costs and external failure costs"
 		},
 		"answer": "b",
 		"tip": "",
@@ -1308,7 +1308,7 @@
 		"explanation": "a) Is correct. This is an objective listed\nb) Is not correct. This is debugging\nc) Is not correct. This is an activity within the test execution group of\nactivities within the test process\nd) Is not correct. This is part of debugging"
 	},
 	{
-		"question": "A phone ringing momentarily distracts a programmer, causing the programmer to improperly\nprogram the logic that checks the upper boundary of an input variable. Later, during system\ntesting, a tester notices that this input field accepts invalid input values. The improperly coded logic\nfor the upper boundary check is:",
+		"question": "A phone ringing momentarily distracts a programmer, causing the programmer to improperly program the logic that checks the upper boundary of an input variable. Later, during system testing, a tester notices that this input field accepts invalid input values. The improperly coded logic for the upper boundary check is:",
 		"possibleAnswers": {
 			"a": "The root-cause",
 			"b": "The failure",
@@ -1320,7 +1320,7 @@
 		"explanation": "a) Is not correct. The root cause is the distraction that the programmer\nexperienced while programming\nb) Is not correct. The accepting of invalid inputs is the failure\nc) Is not correct. The error is the mistaken thinking that resulted in putting\nthe defect in the code\nd) Is correct. The problem in the code is a defect"
 	},
 	{
-		"question": "A product owner says that your role as a tester on an Agile team is to catch all the bugs before the\nend of each iteration. Which of the following is a testing principle that could be used to respond to\nthis (false) statement?",
+		"question": "A product owner says that your role as a tester on an Agile team is to catch all the bugs before the end of each iteration. Which of the following is a testing principle that could be used to respond to this (false) statement?",
 		"possibleAnswers": {
 			"a": "Defect clustering",
 			"b": "Testing shows the presence of defects",
@@ -1332,7 +1332,7 @@
 		"explanation": "a) Is not correct. Defect clustering has to do with where defects are most\nlikely to be found, not whether all of them can be found\nb) Is correct. Testing can show the presence of defects but cannot prove\ntheir absence, which makes it impossible to know if you have caught all\nthe bugs. Further, the impossibility of exhaustive testing makes it\nimpossible for you to catch all the bugs\nc) Is not correct. This principle says that you can find and remove many\nbugs but still release an unsuccessful software product, which is not\nwhat the product owner is asking you to ensure\nd) Is not correct. Root cause analysis is not a testing principle"
 	},
 	{
-		"question": "Programmers often write and execute unit tests against code which they have written. During this\nself-testing activity, which of the following is a tester mindset that programmers should adopt to\nperform this unit testing effectively?",
+		"question": "Programmers often write and execute unit tests against code which they have written. During this self-testing activity, which of the following is a tester mindset that programmers should adopt to perform this unit testing effectively?",
 		"possibleAnswers": {
 			"a": "Good communication skills",
 			"b": "Code coverage",
@@ -1344,7 +1344,7 @@
 		"explanation": "a) Is not correct. The programmer appears to be performing unit testing on\ntheir own code\nb) Is not correct. Code coverage is useful for unit testing, but it is not a\ntester mindset\nc) Is not correct. The programmer’s mindset included contemplating what\nmight be wrong with the code, but that is not a tester’s mindset\nd) Is correct. This tester mindset, attention to detail, will help programmers\nfind defects during unit testing"
 	},
 	{
-		"question": "Consider the following testing activities:\n1. Selecting regression tests\n2. Evaluating completeness of test execution\n3. Identifying which user stories have open defect reports\n4. Evaluating whether the number of tests for each requirement is consistent with the level of\nproduct risk\nConsider the following ways traceability can help testing:\nA. Improve understandability of test status reports to include status of test basis items\nB. Make testing auditable\nC. Provide information to assess process quality\nD. Analyze the impact of changes\nWhich of the following best matches the testing activity with how traceability can assist that\nactivity?",
+		"question": "Consider the following testing activities:\n1. Selecting regression tests\n2. Evaluating completeness of test execution\n3. Identifying which user stories have open defect reports\n4. Evaluating whether the number of tests for each requirement is consistent with the level of product risk\nConsider the following ways traceability can help testing:\nA. Improve understandability of test status reports to include status of test basis items\nB. Make testing auditable\nC. Provide information to assess process quality\nD. Analyze the impact of changes\nWhich of the following best matches the testing activity with how traceability can assist that activity?",
 		"possibleAnswers": {
 			"a": "1D, 2B, 3C, 4A",
 			"b": "1B, 2D, 3A, 4C",
@@ -1356,7 +1356,7 @@
 		"explanation": "Traceability assists with:\n• Selecting regression tests in terms of analyzing the impact of\nchanges (1D)\n• Evaluating completeness of test execution which makes testing\nauditable (2B)\n• Identifying which user stories have open defect reports which\nimproves understandability of test status reports to include status of\ntest basis items (3A)\n• Evaluating whether the number of tests for each requirement is\nconsistent with the level of product risk which provides information to\nassess test process quality (i.e., alignment of test effort with risk)\n(4C)\nThus:\na) Is not correct\nb) Is not correct\nc) Is not correct\nd) Is correct"
 	},
 	{
-		"question": "A tester participated in a discussion about proposed database structure. The tester identified a\npotential performance problem related to certain common user searches. This possible problem\nwas explained to the development team. Which of the following is a testing contribution to success\nthat BEST matches this situation?",
+		"question": "A tester participated in a discussion about proposed database structure. The tester identified a potential performance problem related to certain common user searches. This possible problem was explained to the development team. Which of the following is a testing contribution to success that BEST matches this situation?",
 		"possibleAnswers": {
 			"a": "Enabling required tests to be identified at an early stage",
 			"b": "Ensuring processes are carried out properly",
@@ -1380,7 +1380,7 @@
 		"explanation": "a) Is not correct. Analyzing a defect is part of debugging, not testing\nb) Is correct. Creating test data is a test implementation task\nc) Is not correct. While a tester may need to identify a test item’s version\nfor results reporting purposes, assigning a test item’s version is part of\nconfiguration management\nd) Is not correct. Writing a user story is not a testing activity and should be\ndone by the product owner"
 	},
 	{
-		"question": "You are running a performance test with the objective of finding possible network bottlenecks in\ninterfaces between components of a system. Which of the following statements describes this test?",
+		"question": "You are running a performance test with the objective of finding possible network bottlenecks in interfaces between components of a system. Which of the following statements describes this test?",
 		"possibleAnswers": {
 			"a": "A functional test during the integration test level",
 			"b": "A non-functional test during the integration test level",
@@ -1404,7 +1404,7 @@
 		"explanation": "a) Is not correct. While impact analysis is useful during maintenance\ntesting it is not necessary for confirmation testing since confirmation\ntesting is on the intended effects of a bug fix or other change\nb) Is not correct. Confirmation and regression testing are two separate\nactivities, and confirmation testing is not part of system design\nc) Is correct. Impact analysis can be used to select regression tests for\nmaintenance testing\nd) Is not correct. Confirmation testing is not part of impact analysis, though\nconfirmation testing will typically happen during maintenance testing"
 	},
 	{
-		"question": "Consider the following types of defects that a test level might focus on:\na) Defects in separately testable modules or objects\nb) Not focused on identifying defects\nc) Defects in interfaces and interactions\nd) Defects in the whole test object\nWhich of the following list correctly matches test levels from the Foundation syllabus with the\ndefect focus options given above?",
+		"question": "Consider the following types of defects that a test level might focus on:\na) Defects in separately testable modules or objects\nb) Not focused on identifying defects\nc) Defects in interfaces and interactions\nd) Defects in the whole test object\nWhich of the following list correctly matches test levels from the Foundation syllabus with the defect focus options given above?",
 		"possibleAnswers": {
 			"a": "1 = performance test; 2 = component test; 3 = system test; 4 = acceptance test",
 			"b": "1 = component test; 2 = acceptance test; 3 = system test; 4 = integration test",
@@ -1416,7 +1416,7 @@
 		"explanation": "Performance testing is a test type, not a test level. Component testing\nfocuses on defects in separately testable modules or objects, integration\ntesting on defects in interfaces and interactions, system testing on defects\nin the whole test object, and acceptance testing is not typically focused on\nidentifying defects.\nThus:\na) Is not correct\nb) Is not correct\nc) Is correct\nd) Is not correct"
 	},
 	{
-		"question": "A mass market operating system software product is designed to run on any PC hardware with an\nx86-family processor. You are running a set of tests to look for defects related to support of the\nvarious PCs that use such a processor and to build confidence that important PC brands will work.\nWhat type of test are you performing?",
+		"question": "A mass market operating system software product is designed to run on any PC hardware with an x86-family processor. You are running a set of tests to look for defects related to support of the various PCs that use such a processor and to build confidence that important PC brands will work. What type of test are you performing?",
 		"possibleAnswers": {
 			"a": "Performance test",
 			"b": "Processor test",
@@ -1428,7 +1428,7 @@
 		"explanation": "a) Is not correct. The test described is a non-functional test, it is a\nportability test, not a performance test\nb) Is not correct. Processor test is not a defined test type\nc) Is not correct. The test described is a non-functional test, specifically\na portability test\nd) Is correct. Testing supported devices is a non-functional test,\nspecifically a portability test"
 	},
 	{
-		"question": "During an Agile development effort, a product owner discovers a previously unknown regulatory\nrequirement that applies to most of the user stories within a particular epic. The user stories are\nupdated to provide for the necessary changes in software behavior. The programmers on the team\nare modifying the code appropriately. As a tester on the team, what types of tests will you run?",
+		"question": "During an Agile development effort, a product owner discovers a previously unknown regulatory requirement that applies to most of the user stories within a particular epic. The user stories are updated to provide for the necessary changes in software behavior. The programmers on the team are modifying the code appropriately. As a tester on the team, what types of tests will you run?",
 		"possibleAnswers": {
 			"a": "Confirmation tests",
 			"b": "Regression tests",
@@ -1452,11 +1452,11 @@
 		"explanation": "a) Is correct. The facilitator or moderator runs the review meetings\nb) Is not correct. This is not a role name for a formal review participant\nc) Is not correct. The facilitator or moderator runs the review meetings\nd) Is not correct. The facilitator or moderator runs the review meetings"
 	},
 	{
-		"question": "You are reading a user story in the product backlog to prepare for a meeting with the product\nowner and a developer, noting potential defects as you go. Which of the following statements is\ntrue about this activity?",
+		"question": "You are reading a user story in the product backlog to prepare for a meeting with the product owner and a developer, noting potential defects as you go. Which of the following statements is true about this activity?",
 		"possibleAnswers": {
 			"a": "It is not a static test, because static testing involves execution of the test object",
 			"b": "It is not a static test, because static testing is always performed using a tool",
-			"c": "It is a static test, because any defects you find could be found cheaper during dynamic\ntesting",
+			"c": "It is a static test, because any defects you find could be found cheaper during dynamic testing",
 			"d": "It is a static test because static testing does not involve execution of the test object"
 		},
 		"answer": "d",
@@ -1464,7 +1464,7 @@
 		"explanation": "a) Is not correct. Static testing does not involve execution of the test object\nb) Is not correct. Some static tests involve the use of a tool, especially\nstatic analysis, but reviews (such as the activity described here) do not\nnecessarily involve the use of a tool\nc) Is not correct. The review activity described here is part of a static test,\nbut defects found in static tests are usually cheaper than those found in\ndynamic testing\nd) Is correct. Static testing does not involve execution of the test object"
 	},
 	{
-		"question": "During a period of intensive project overtime, a system architecture document is sent to various\nproject participants, announcing a previously unplanned technical review to occur in one week. No\nadjustments are made to the participants’ list of assigned tasks. Based on this information alone,\nwhich of the following is a factor for review success that is MISSING?",
+		"question": "During a period of intensive project overtime, a system architecture document is sent to various project participants, announcing a previously unplanned technical review to occur in one week. No adjustments are made to the participants’ list of assigned tasks. Based on this information alone, which of the following is a factor for review success that is MISSING?",
 		"possibleAnswers": {
 			"a": "Appropriate review type",
 			"b": "Adequate time to prepare",
@@ -1476,7 +1476,7 @@
 		"explanation": "a) Is not correct. Technical reviews are appropriate for technical\ndocuments such as a system architecture\nb) Is correct. Adequate time for preparation is important, but people are\nworking overtime and no adjustments are made for this new set of tasks\nc) Is not correct. Gathering metrics from a review to evaluate participants\nis a factor that leads to failure, not success, because it destroys trust\nd) Is not correct. A well-managed review meeting is important, but there is\nno reason to think the review meeting will not be well managed based\non the information provided"
 	},
 	{
-		"question": "You are working as a tester on an Agile team and have participated in over two dozen user story\nrefinement sessions with the product owner and the developers on the team at the start of each\niteration. As the reviews have gotten more effective at detecting defects in user stories and the\nproduct owner more proficient at correcting those defects, you and the team notice that the team’s\nvelocity, as shown in your burndown charts, has started to increase. Which of the following is a\nbenefit of static testing that is MOST DIRECTLY related to the team’s increased velocity?",
+		"question": "You are working as a tester on an Agile team and have participated in over two dozen user story refinement sessions with the product owner and the developers on the team at the start of each iteration. As the reviews have gotten more effective at detecting defects in user stories and the product owner more proficient at correcting those defects, you and the team notice that the team’s velocity, as shown in your burndown charts, has started to increase. Which of the following is a benefit of static testing that is MOST DIRECTLY related to the team’s increased velocity?",
 		"possibleAnswers": {
 			"a": "Increasing total cost of quality",
 			"b": "Reducing testing cost",
@@ -1488,7 +1488,7 @@
 		"explanation": "a) Is not correct. Reviews reduce, not increase, the total cost of quality\nb) Is not correct. Increasing velocity is a sign of increasing development\nproductivity overall, not just testing, so B only partially applies\nc) Is correct. Velocity is a way of measuring productivity in Agile\ndevelopment\nd) Is not correct. The benefit mentioned here has to do with increasing\noverall development team productivity"
 	},
 	{
-		"question": "You are working on a video game development project, using Agile methods. It is based on Greek\nmythology and history, and players can play key roles in scenarios such as the battles between the\nGreeks and Trojans.\nConsider the following user story and its associated acceptance criteria:\nAs a player,\nI want to be able to acquire the Rod of Midas (a new magic object),\nso that I can turn objects and other players into gold\nAC1: The Rod must work on any object or player, no matter what size, which can be\ntouched anywhere by the player holding the Rod\nAC2: Holding the Rod does not change the player holding it into gold\nAC3: Any object or player touched by the Rod transforms completely into gold within\none millisecond\nAC4: The Rod appears as shown in Prototype O.W.RoM\nAC5: The transformation starts at the point of contact with the Rod and moves at a\nrate of one meter per millisecond\nYou are participating in a checklist-based review session of this user story. This user story and its associated acceptance criteria contain which of the following typical defects\nidentified by static testing in this type of work product?",
+		"question": "You are working on a video game development project, using Agile methods. It is based on Greek mythology and history, and players can play key roles in scenarios such as the battles between the Greeks and Trojans. Consider the following user story and its associated acceptance criteria:\nAs a player, I want to be able to acquire the Rod of Midas (a new magic object), so that I can turn objects and other players into gold\nAC1: The Rod must work on any object or player, no matter what size, which can be touched anywhere by the player holding the Rod\nAC2: Holding the Rod does not change the player holding it into gold\nAC3: Any object or player touched by the Rod transforms completely into gold within one millisecond\nAC4: The Rod appears as shown in Prototype O.W.RoM\nAC5: The transformation starts at the point of contact with the Rod and moves at a rate of one meter per millisecond\nYou are participating in a checklist-based review session of this user story. This user story and its associated acceptance criteria contain which of the following typical defects identified by static testing in this type of work product?",
 		"possibleAnswers": {
 			"a": "Deviation from standard",
 			"b": "Contradiction",
@@ -1512,7 +1512,7 @@
 		"explanation": "a) Is not correct. This is the Glossary definition of condition coverage\nb) Is not correct. Decision coverage is a higher level of coverage and the\ntwo terms are not defined as synonyms in the Glossary\nc) Is not correct. This is the Glossary definition of statement coverage\nd) Is correct. This is the Glossary definition of coverage as applied to\ndecisions"
 	},
 	{
-		"question": "Prior to an iteration planning session, you are studying a user story and its acceptance criteria,\nderiving test conditions and associated test cases from the user story as a way of applying the\nprinciple of early QA and test. What test technique are you applying?",
+		"question": "Prior to an iteration planning session, you are studying a user story and its acceptance criteria, deriving test conditions and associated test cases from the user story as a way of applying the principle of early QA and test. What test technique are you applying?",
 		"possibleAnswers": {
 			"a": "White-box",
 			"b": "Black-box",
@@ -1526,17 +1526,17 @@
 	{
 		"question": "Which of the following is a true statement about exploratory testing?",
 		"possibleAnswers": {
-			"a": "More experienced testers who have tested similar applications and technologies are likely\nto do better than less experienced testers at exploratory testing",
-			"b": "Exploratory testing does not identify any additional tests beyond those that would result\nfrom formal test techniques",
-			"c": "The time required to complete an exploratory testing session cannot be predicted in\nadvance",
-			"d": "Exploratory testing can involve the use of black-box techniques but not white-box\ntechniques"
+			"a": "More experienced testers who have tested similar applications and technologies are likely to do better than less experienced testers at exploratory testing",
+			"b": "Exploratory testing does not identify any additional tests beyond those that would result from formal test techniques",
+			"c": "The time required to complete an exploratory testing session cannot be predicted in advance",
+			"d": "Exploratory testing can involve the use of black-box techniques but not white-box techniques"
 		},
 		"answer": "a",
 		"tip": "",
 		"explanation": "a) Is correct. Exploratory testing is a form of experience-based testing,\nwhich benefits from the skills and experience of the tester\nb) b) Is not correct. Exploratory testing is useful to complement\nformal testing techniques\nc) Is not correct. In session-based test management, exploratory testing is\nconducted within a defined time-box, and the tester uses a test charter\ncontaining test objectives to guide the testing\nd) Is not correct. Exploratory testing can incorporate the use of other\nblack-box, white-box, and experience-based techniques referenced in\nthis syllabus"
 	},
 	{
-		"question": "You are testing a mobile app that allows customers to access and manage their bank accounts.\nYou are running a test suite that involves evaluating each screen and each field on each screen against a general list of user interface best practices, derived from a popular book on the topic, that\nmaximize attractiveness, ease-of-use, and accessibility for such apps. Which of the following\noptions BEST categorizes the test technique you are using?",
+		"question": "You are testing a mobile app that allows customers to access and manage their bank accounts. You are running a test suite that involves evaluating each screen and each field on each screen against a general list of user interface best practices, derived from a popular book on the topic, that maximize attractiveness, ease-of-use, and accessibility for such apps. Which of the following options BEST categorizes the test technique you are using?",
 		"possibleAnswers": {
 			"a": "Specification-based",
 			"b": "Exploratory",
@@ -1548,7 +1548,7 @@
 		"explanation": "a) Is not correct. The book provides general guidance, and is not a formal\nrequirements document, a specification, or a set of use cases, user\nstories, or business processes\nb) Is not correct. While you could consider the list as a set of test charters,\nit more closely resembles the list of test conditions\nc) Is correct. The list of user interface best practices is the list of test\nconditions\nd) Is not correct. The tests are not focused on failures that could occur, but\nrather on knowledge about what is important for the user, in terms of\nusability"
 	},
 	{
-		"question": "Consider a mobile app that allows customers to access and manage their bank accounts. A user\nstory has just been added to the set of features that checks customers’ social media accounts and\nbank records to give personalized greetings on birthdays and other personal milestones. Which of\nthe following test techniques could a PROGRAMMER use during a unit test of the code to ensure\nthat coverage of situations when the greetings ARE supposed to occur and when the greetings\nARE NOT supposed to occur?",
+		"question": "Consider a mobile app that allows customers to access and manage their bank accounts. A user story has just been added to the set of features that checks customers’ social media accounts and bank records to give personalized greetings on birthdays and other personal milestones. Which of the following test techniques could a PROGRAMMER use during a unit test of the code to ensure that coverage of situations when the greetings ARE supposed to occur and when the greetings ARE NOT supposed to occur?",
 		"possibleAnswers": {
 			"a": "Statement testing",
 			"b": "Exploratory testing",
@@ -1560,7 +1560,7 @@
 		"explanation": "a) Is not correct. Statement testing exercises the executable statements in\nthe code, which might result in the absence of certain greetings not\nbeing tested\nb) Is not correct. Unless the test charter specifically mentioned testing\nboth the presence and the absence of each type of greeting, coverage\ncan be difficult to assess for an exploratory test\nc) Is not correct. State transition testing is useful for situations where the\ntest object responds differently to an input depending on current\nconditions or previous history, but in this case the test object must\ndecide whether the current date matches a particular milestone and\nthus whether to display the relevant greeting\nd) Is correct. Decision testing involves test cases that follow the control\nflows that occur from a decision point, which in this case would be\ndeciding whether a greeting should or should not be given"
 	},
 	{
-		"question": "A batch application has been in production unchanged for over two years. It runs overnight once a\nmonth to produce statements that will be e-mailed to customers. For each customer, the\napplication goes through every account and lists every transaction on that account in the last\nmonth. It uses a nested-loop structure to process customers (outer loop), each customer’s\naccounts (middle loop), and each account’s transactions (inner loop).\nOne night, the batch application terminates prematurely, failing to e-mail statements to some\ncustomers, when it encounters a customer with one account for which no transactions occurred in\nthe last month. This is a very unusual situation and has not occurred in the years since this\napplication was placed in production.\nWhile fixing the defect, a programmer asks you to recommend test techniques that are effective\nagainst this kind of defect. Which of the following test techniques would most likely have been able\nto detect the underlying defect?",
+		"question": "A batch application has been in production unchanged for over two years. It runs overnight once a month to produce statements that will be e-mailed to customers. For each customer, the application goes through every account and lists every transaction on that account in the last month. It uses a nested-loop structure to process customers (outer loop), each customer’s accounts (middle loop), and each account’s transactions (inner loop). One night, the batch application terminates prematurely, failing to e-mail statements to some customers, when it encounters a customer with one account for which no transactions occurred in the last month. This is a very unusual situation and has not occurred in the years since this application was placed in production. While fixing the defect, a programmer asks you to recommend test techniques that are effective against this kind of defect. Which of the following test techniques would most likely have been able to detect the underlying defect?",
 		"possibleAnswers": {
 			"a": "Decision testing",
 			"b": "Statement testing",
@@ -1572,7 +1572,7 @@
 		"explanation": "a) Is correct. For a loop construct, statement coverage only requires that\nall statements within the loop are executed, but decision coverage\nrequires testing of both the conditions where the loop is executed and\nwhen it is bypassed\nb) Is not correct. For a loop construct, statement coverage only requires\nthat all statements within the loop are executed, but decision coverage\nrequires testing of both the conditions where the loop is executed and\nwhen it is bypassed\nc) Is not correct. Checklists are based on experience, defect and failure\ndata, knowledge about what is important for the user, and an\nunderstanding of why and how software fails, none of which is likely to\nhave led to the inclusion of such a test condition\nd) Is not correct. While it is possible that someone might anticipate a\ndeveloper making the mistaken assumption that there would always be\nat least one transaction in a month for every account, only decision\ntesting guarantees testing of that condition"
 	},
 	{
-		"question": "You are testing an unattended gasoline pump that only accepts credit cards. Once the credit card\nis validated, the pump nozzle placed into the tank, and the desired grade selected, the customer\nenters the desired amount of fuel in gallons using the keypad. The keypad only allows the entry of\ndigits. Fuel is sold in tenths (0.1) of a gallon, up to 50.0 gallons.\nWhich of the following is a minimum set of desired amounts that covers the equivalence partitions\nfor this input?",
+		"question": "You are testing an unattended gasoline pump that only accepts credit cards. Once the credit card is validated, the pump nozzle placed into the tank, and the desired grade selected, the customer enters the desired amount of fuel in gallons using the keypad. The keypad only allows the entry of digits. Fuel is sold in tenths (0.1) of a gallon, up to 50.0 gallons. Which of the following is a minimum set of desired amounts that covers the equivalence partitions for this input?",
 		"possibleAnswers": {
 			"a": "0.0, 20.0, 60.0",
 			"b": "0.0, 0.1, 50.0",
@@ -1584,7 +1584,7 @@
 		"explanation": "There are three equivalence partitions:\n• No sale completed (0.0 gallons)\n• A valid sale occurs (0.1 to 50.0 gallons)\n• An invalid amount is selected (50.1 or more gallons)\nThus:\na) Is correct. This set of input values has exactly one test per equivalence\npartition\nb) Is not correct. This set of input values has does not cover the invalid\namount partition\nc) Is not correct. This set of input values has two tests for the valid sale\nequivalence partition, which is not the minimum\nd) Is not correct. This set of input values covers the three-point boundary\nvalues for the two boundaries, not the minimum number required to\ncover the equivalence partitions"
 	},
 	{
-		"question": "You are testing an e-commerce system that sells cooking supplies such as spices, flour, and other\nitems in bulk. The units in which the items are sold are either grams (for spices and other\nexpensive items) or kilograms (for flour and other inexpensive items). Regardless of the units, the\nsmallest valid order amount is 0.5 units (e.g., half a gram of cardamom pods) and the largest valid\norder amount is 25.0 units (e.g., 25 kilograms of sugar). The precision of the unit’s field is 0.1 units.\nWhich of the following is a set of input values that cover the boundary values with two-point\nboundary values for this field?",
+		"question": "You are testing an e-commerce system that sells cooking supplies such as spices, flour, and other items in bulk. The units in which the items are sold are either grams (for spices and other expensive items) or kilograms (for flour and other inexpensive items). Regardless of the units, the smallest valid order amount is 0.5 units (e.g., half a gram of cardamom pods) and the largest valid order amount is 25.0 units (e.g., 25 kilograms of sugar). The precision of the unit’s field is 0.1 units. Which of the following is a set of input values that cover the boundary values with two-point boundary values for this field?",
 		"possibleAnswers": {
 			"a": "0.3, 10.0, 28.0",
 			"b": "0.4, 0.5, 0.6, 24, 9, 25, 0, 25.1",
@@ -1596,7 +1596,7 @@
 		"explanation": "There are three equivalence partitions, with the boundaries as shown:\n• Invalid too low (0.4 and below)\n• Valid (0.5 to 25.0)\n• Invalid too high (25.1 and above)\nThus:\na) Is not correct. None of those four boundary values are included in this\nset of tests. These tests do cover the equivalence partitions\nb) Is not correct. All these four boundary values are included in this set of\ntests, but two additional values are included, one for each boundary.\nThese are the values associated with three-point boundary value\nanalysis\nc) Is correct. Each of those four two-point boundary values are included in\nthis set of tests\nd) Is not correct. These four values are all included in the valid partition"
 	},
 	{
-		"question": "Consider the following decision table for the portion of an online airline reservation system that\nallows frequent flyers to redeem points for reward travel:\nCondition 1 2 3\nAccount/password okay N Y Y\nSufficient points - N Y\nAction\nShow flight history N Y Y\nAllow reward travel N N Y\nSuppose that there are two equivalence partitions for the condition where “Account/password\nokay” is not true, one where the account is invalid and another where the account is valid, but the\npassword is invalid. Suppose that there is only one equivalence partition corresponding to the\ncondition where “Account/password okay” is true, where both the account and password are valid.\nIf you want to design tests to cover the equivalence partitions for “Account/password okay” and\nalso for this portion of the decision table, what is the minimum number of tests required?",
+		"question": "Consider the following decision table for the portion of an online airline reservation system that allows frequent flyers to redeem points for reward travel:\nCondition 1 2 3\nAccount/password okay N Y Y\nSufficient points - N Y\nAction\nShow flight history N Y Y\nAllow reward travel N N Y\nSuppose that there are two equivalence partitions for the condition where “Account/password okay” is not true, one where the account is invalid and another where the account is valid, but the password is invalid. Suppose that there is only one equivalence partition corresponding to the condition where “Account/password okay” is true, where both the account and password are valid. If you want to design tests to cover the equivalence partitions for “Account/password okay” and also for this portion of the decision table, what is the minimum number of tests required?",
 		"possibleAnswers": {
 			"a": "2",
 			"b": "3",
@@ -1608,7 +1608,7 @@
 		"explanation": "There is at least one test for each column in the decision table. However,\ncolumn one requires two tests, one where the account is invalid and\nanother where the account is valid, but the password is invalid, so the\nminimum number of tests is four.\nThus:\na) Is not correct\nb) Is not correct\nc) Is correct\nd) Is not correct"
 	},
 	{
-		"question": "You are testing an e-commerce system that sells cooking supplies such as spices, flour, and other\nitems in bulk. The units in which the items are sold are either grams (for spices and other\nexpensive items) or kilograms (for flour and other inexpensive items). Regardless of the units, the\nsmallest valid order amount is 0.5 units (e.g., half a gram of cardamom pods) and the largest valid\norder amount is 25.0 units (e.g., 25 kilograms of sugar). The precision of the units’ field is 0.1 units. Which of the following is a MINIMAL set of input values that cover the equivalence partitions for\nthis field?",
+		"question": "You are testing an e-commerce system that sells cooking supplies such as spices, flour, and other items in bulk. The units in which the items are sold are either grams (for spices and other expensive items) or kilograms (for flour and other inexpensive items). Regardless of the units, the smallest valid order amount is 0.5 units (e.g., half a gram of cardamom pods) and the largest valid order amount is 25.0 units (e.g., 25 kilograms of sugar). The precision of the units’ field is 0.1 units. Which of the following is a MINIMAL set of input values that cover the equivalence partitions for this field?",
 		"possibleAnswers": {
 			"a": "10.0, 28.0",
 			"b": "0.4, 0.5, 25.0, 25.1",
@@ -1620,19 +1620,19 @@
 		"explanation": "There are three equivalence partitions, with the boundaries as shown:\n• Invalid too low (0.4 and below)\n• Valid (0.5 to 25.0)\n• Invalid too high (25.1 and above)\nThus:\na) Is not correct. Only two of the equivalence partitions are covered in this\nset of tests\nb) Is not correct. Each of those four boundary values are included in this\nset of tests, but the question asked for equivalence partition coverage\nwith minimal tests, so either 0.5 or 25.0 should be dropped\nc) Is correct. Each of these three equivalence partitions are covered in this\nset of tests\nd) Is not correct. Only one of those equivalence partitions is covered by\nthis test"
 	},
 	{
-		"question": "You are working as a tester on an online banking system. Availability is considered one of the top\nproducts (quality) risks for the system. You find a reproducible failure that results in customers\nlosing their connections to the bank Web site when transferring funds between common types of\naccounts and being unable to reconnect for between three and five minutes.\nWhich of the following would be a good summary for a defect report for this failure, one that\ncaptures both the essence of the failure and its impact on stakeholders?",
+		"question": "You are working as a tester on an online banking system. Availability is considered one of the top products (quality) risks for the system. You find a reproducible failure that results in customers losing their connections to the bank Web site when transferring funds between common types of accounts and being unable to reconnect for between three and five minutes. Which of the following would be a good summary for a defect report for this failure, one that captures both the essence of the failure and its impact on stakeholders?",
 		"possibleAnswers": {
-			"a": "Web server logs show error 0x44AB27 when running test 07.005, which is not an expected\nerror message in /tmp filesystem",
-			"b": "Developers have introduced major availability defect which will seriously upset our\ncustomers",
+			"a": "Web server logs show error 0x44AB27 when running test 07.005, which is not an expected error message in /tmp filesystem",
+			"b": "Developers have introduced major availability defect which will seriously upset our customers",
 			"c": "Performance is slow and reliability flaky under load",
-			"d": "Typical funds-transfer transaction results in termination of customer session, with a delay in\navailability when attempting to reconnect"
+			"d": "Typical funds-transfer transaction results in termination of customer session, with a delay in availability when attempting to reconnect"
 		},
 		"answer": "d",
 		"tip": "",
 		"explanation": "a) Is not correct. While this information is useful for developers, it does not\nprovide managers with a sense of the impact on product quality\nb) Is not correct. This summary does not provide developers or managers\nwith the necessary information and attacks the developers\nc) Is not correct. This summary does not provide developers or managers\nwith the necessary information and attacks the developers\nd) Is correct. This summary gives a good sense of the failure and its\nimpact"
 	},
 	{
-		"question": "You are testing a mobile app that allows users to find a nearby restaurant, based on the type of\nfood they want to eat. Consider the following list of test cases, priorities (smaller number is high\npriority), and dependencies, in the following format:\nTest case number Test condition covered Priority Logical dependency\n01.001 Select type of food 3 none\n01.002 Select restaurant 2 01.001\n01.003 Get directions 1 01.002\n01.004 Call restaurant 1 01.002\nWhich of the following is a possible test execution schedule that considers both priorities and\ndependencies?",
+		"question": "You are testing a mobile app that allows users to find a nearby restaurant, based on the type of food they want to eat. Consider the following list of test cases, priorities (smaller number is high priority), and dependencies, in the following format:\nTest case number Test condition covered Priority Logical dependency 01.001 Select type of food 3 none\n01.002 Select restaurant 2 01.001\n01.003 Get directions 1 01.002\n01.004 Call restaurant 1 01.002\nWhich of the following is a possible test execution schedule that considers both priorities and dependencies?",
 		"possibleAnswers": {
 			"a": "01.001, 01.002, 01.003, 01.005,",
 			"b": "01.001, 01.002, 01.004, 01.003",
@@ -1644,7 +1644,7 @@
 		"explanation": "Test 01.001 must come first, followed by 01.002, to satisfy dependencies.\nAfterwards, 01.004 and 01.003 should be run in either order, followed by\n01.005, to satisfy priority.\nThus:\na) Is not correct\nb) Is not correct\nc) Is not correct\nd) Is correct"
 	},
 	{
-		"question": "Which of the following is a common test metric often used to monitor BOTH test preparation and\ntest execution?",
+		"question": "Which of the following is a common test metric often used to monitor BOTH test preparation and test execution?",
 		"possibleAnswers": {
 			"a": "Test case status",
 			"b": "Defect find/fix rates",
@@ -1668,11 +1668,11 @@
 		"explanation": "The level of risk will be determined by the likelihood of an adverse event\nhappening and the impact (the harm) from that event.\nThus:\na) Is not correct\nb) Is not correct\nc) Is not correct\nd) Is correct"
 	},
 	{
-		"question": "You are working as a project manager on an in-house banking software project. To prevent rework\nand excessive find/fix/retest cycles, the following process has been put in place for resolving a\ndefect once it is found in the test lab:\n1. The assigned developer finds and fixes the defect, then creates an experimental\nbuild\n2. A peer developer reviews, unit tests, and confirmation tests the defect fix on his/her\ndesktop\n3. A tester – usually the one who found the defect – confirmation tests the defect fix in\nthe development environment\n4. Once a day, a new release with all confirmed defect fixes included, is installed in the\ntest environment\n5. The same tester from step 3 confirmation tests the defect fix in the test environment\nNevertheless, a large number of defects which the testers confirmed as fixed in the development\nenvironment (in step 3) are somehow failing confirmation testing in the test environment, with the\nresulting rework and cycle time outcomes. You have the highest confidence in your testers and\nhave ruled out mistakes or omissions in step 3.\nWhich of the following is the MOST likely part of the process to check next?",
+		"question": "You are working as a project manager on an in-house banking software project. To prevent rework and excessive find/fix/retest cycles, the following process has been put in place for resolving a defect once it is found in the test lab:\n1. The assigned developer finds and fixes the defect, then creates an experimental\nbuild\n2. A peer developer reviews, unit tests, and confirmation tests the defect fix on his/her desktop\n3. A tester – usually the one who found the defect – confirmation tests the defect fix in the development environment\n4. Once a day, a new release with all confirmed defect fixes included, is installed in the test environment\n5. The same tester from step 3 confirmation tests the defect fix in the test environment\nNevertheless, a large number of defects which the testers confirmed as fixed in the development environment (in step 3) are somehow failing confirmation testing in the test environment, with the resulting rework and cycle time outcomes. You have the highest confidence in your testers and have ruled out mistakes or omissions in step 3. Which of the following is the MOST likely part of the process to check next?",
 		"possibleAnswers": {
 			"a": "The activity of developers, who may not be adequately testing in step 2",
 			"b": "The activity of testers, who may be confused about what to test in step 5",
-			"c": "Configuration management, which may not be maintaining the integrity of the product in\nstep 4",
+			"c": "Configuration management, which may not be maintaining the integrity of the product in step 4",
 			"d": "The activity of developers, who may not be fixing defects properly in step 1"
 		},
 		"answer": "c",
@@ -1680,7 +1680,7 @@
 		"explanation": "a) Is not correct. If inadequate developer testing were the problem, the\nconfirmation test would not pass in step 3\nb) Is not correct. The same tester who successfully performed the\nconfirmation test in step 3 is repeating it in step 5\nc) Is correct. Configuration management maintains the integrity of the\nsoftware. If a test that passes in step 3 fails in step 5, then something is\ndifferent between those two steps. One possible difference is the test\nobject, the option listed here. Another possible difference is the\nbetween the development environment and the test environment, but\nthat is not an option listed here\nd) Is not correct. If the developers were not fixing the defect, the\nconfirmation test would not pass in step 3"
 	},
 	{
-		"question": "You are engaged in planning a test effort for a new mobile banking application. As part of\nestimation, you first meet with the proposed testers and others on the project. The team is well-\ncoordinated and has already worked on similar projects. To verify the resulting estimate, you then\nrefer to some industry averages for testing effort and costs on similar projects, published by a\nreputable consultant.\nWhich statement accurately describes your estimation approach?",
+		"question": "You are engaged in planning a test effort for a new mobile banking application. As part of estimation, you first meet with the proposed testers and others on the project. The team is well-coordinated and has already worked on similar projects. To verify the resulting estimate, you then refer to some industry averages for testing effort and costs on similar projects, published by a reputable consultant.\nWhich statement accurately describes your estimation approach?",
 		"possibleAnswers": {
 			"a": "A simultaneous expert-based and metrics-based approach",
 			"b": "Primarily an expert-based approach, augmented with a metrics-based approach",
@@ -1692,7 +1692,7 @@
 		"explanation": "a) Is not correct. The two methods are used sequentially, not\nsimultaneously\nb) Is correct. The primary sources of information come from the\nexperienced testers, who are the experts. The consultant’s industry\naverages augment the original estimate from published metrics\nc) Is not correct. The expert-based approach is the primary approach,\naugmented by a metrics-based approach\nd) Is not correct. We do not know if this project is following Agile methods,\nand burndown charts do not come from external consultants"
 	},
 	{
-		"question": "During a project following Agile methods, you find a discrepancy between the developer’s\ninterpretation of an acceptance criteria and the product owner’s interpretation, which you bring up\nduring a user story refinement session. Which of the following is a benefit of test independence\nexemplified by this situation?",
+		"question": "During a project following Agile methods, you find a discrepancy between the developer’s interpretation of an acceptance criteria and the product owner’s interpretation, which you bring up during a user story refinement session. Which of the following is a benefit of test independence exemplified by this situation?",
 		"possibleAnswers": {
 			"a": "Recognizing different kinds of failures",
 			"b": "Taking primary responsibility for quality",
@@ -1704,7 +1704,7 @@
 		"explanation": "a) Is not correct. While recognizing different kinds of failures is a benefit of\ntester independence, in the scenario here no code yet exists that can\nfail, and the problem is that the developer and product owner are both\nassuming different things about the acceptance criteria\nb) Is not correct. Developers losing a sense of responsibility for quality is a\ndrawback, not a benefit\nc) Is not correct. While the effect of the discovery of this disagreement is\nthe earlier removal of the defect, prior to coding, defects can be\ndiscovered early by various people, not just independent testers\nd) Is correct. Challenging stakeholder assumptions is a benefit of tester\nindependence, and here the developer and product owner are both\nassuming different things about the acceptance criteria"
 	},
 	{
-		"question": "You are defining the process for carrying out product risk analysis as part of each iteration on an\nAgile project. Which of the following is the proper place to document this process in a test plan?",
+		"question": "You are defining the process for carrying out product risk analysis as part of each iteration on an Agile project. Which of the following is the proper place to document this process in a test plan?",
 		"possibleAnswers": {
 			"a": "Scope of testing",
 			"b": "Approach of testing",
@@ -1716,7 +1716,7 @@
 		"explanation": "a) Is not correct. While scope is a topic addressed in a test plan, the\nimplementation of a risk-based testing strategy on this project is the\napproach, so this topic should be addressed in that section\nb) Is correct. Approach is a topic addressed in a test plan and the\nimplementation of a risk-based testing strategy on this project is the\napproach\nc) Is not correct. While metrics for test monitoring and control is a topic\naddressed in a test plan, the implementation of a risk-based testing\nstrategy on this project is the approach, so this topic should be\naddressed in that section\nd) Is not correct. Configuration management is not a topic addressed in a\ntest plan"
 	},
 	{
-		"question": "Consider the following list of undesirable outcomes that could occur on a mobile app development\neffort:\nA. Incorrect totals on screens\nB. Change to acceptance criteria during acceptance testing\nC. Users find the soft keyboard too hard to use with your app\nD. System responds too slowly to user input during search string entry\nE. Testers not allowed to report test results in daily standup meetings. Which of the following properly classifies these outcomes as project and product risks?",
+		"question": "Consider the following list of undesirable outcomes that could occur on a mobile app development effort:\nA. Incorrect totals on screens\nB. Change to acceptance criteria during acceptance testing\nC. Users find the soft keyboard too hard to use with your app\nD. System responds too slowly to user input during search string entry\nE. Testers not allowed to report test results in daily stand up meetings. Which of the following properly classifies these outcomes as project and product risks?",
 		"possibleAnswers": {
 			"a": "Product risks: B, E; Project risks: A, C, D",
 			"b": "Product risks: A, C, D; Project risks: B, E",
@@ -1728,16 +1728,16 @@
 		"explanation": "Product risks exist when a work product may fail to satisfy legitimate needs,\nwhile project risks are situations that could have a negative impact on the\nproject’s ability to achieve its objectives. So:\nA. Incorrect totals on screens = product risk\nB. Change to acceptance criteria during acceptance testing = project\nrisk\nC. Users find the soft keyboard too hard to use with your app = product\nrisk\nD. System responds too slowly to user input during search string entry\n= product risk\nE. Testers not allowed to report test results in daily standup meetings =\nproject risk\nThus:\na) Is not correct. This list is entirely backwards\nb) Is correct\nc) Is not correct. While E is about product quality and product risks, the\nfailure to communicate test results is a project risk per the syllabus\nd) Is not correct. Product risks can be functional and non-functional, so d\nis also a product risk"
 	},
 	{
-		"question": "You have just completed a pilot project for a regression testing tool. You understand the tool much\nbetter and have tailored your testing process to it. You have standardized an approach to using the\ntool and its associated work products. Which of the following is a typical test automation pilot\nproject goal that remains to be carried out?",
+		"question": "You have just completed a pilot project for a regression testing tool. You understand the tool much better and have tailored your testing process to it. You have standardized an approach to using the tool and its associated work products. Which of the following is a typical test automation pilot project goal that remains to be carried out?",
 		"possibleAnswers": {
 			"a": "Learn more details about the tool",
 			"b": "See how the tool would fit with existing processes and practices",
-			"c": "Decide on standard ways of using, managing, storing, and maintaining the tool and the test\nassets",
+			"c": "Decide on standard ways of using, managing, storing, and maintaining the tool and the test assets",
 			"d": "Assess whether the benefits will be achieved at reasonable cost"
 		},
 		"answer": "d",
 		"tip": "",
-		"explanation": "a) Is not correct. This is an objective for a pilot, but you have achieved it\nbecause you understand the tool much better due to the pilot\nb) Is not correct. This is an objective for a pilot, but you have achieved it\nbecause you have tailoring your testing processes\nc) Is not correct. This is an objective for a pilot, but you have achieved it\nbecause you have standardized an approach to using the tool and its\nassociated work products\nd) Is correct. Assessing the benefits and configuring the metrics collection\nare the two objectives missing from this list"
+		"explanation": "a) Is not correct. This is an objective for a pilot, but you have achieved it because you understand the tool much better due to the pilot\nb) Is not correct. This is an objective for a pilot, but you have achieved it\nbecause you have tailoring your testing processes\nc) Is not correct. This is an objective for a pilot, but you have achieved it\nbecause you have standardized an approach to using the tool and its\nassociated work products\nd) Is correct. Assessing the benefits and configuring the metrics collection\nare the two objectives missing from this list"
 	},
 	{
 		"question": "Which of the following tools is most useful for reporting test metrics?",
@@ -1750,5 +1750,461 @@
 		"answer": "a",
 		"tip": "",
 		"explanation": "a) Is correct. Test management tools support the activities associated with\ntest manager including metrics\nb) Is not correct. Static code analysis metrics would have to do with the\ncode only, not testing as a whole\nc) Is not correct. These tools report on test basis coverage and code\ncoverage only, not testing as a whole\nd) Is not correct. Model-Based testing tools focus on one specific area, not\ntesting as a whole"
+	},
+	{
+		"question": "What is the test basis?",
+		"possibleAnswers": {
+			"a": "The point during software development when testing should start",
+			"b": "he body of knowledge used for test analysis and design",
+			"c": "The source to determine the actual results from a set of tests",
+			"d": "The method used to systematically devise test conditions"
+		},
+		"answer": "b",
+		"tip": "",
+		"explanation": "B is correct. Per the glossary, the test basis is “a\nsource to determine expected results to compare\nwith the actual result of the system under test”. A\nis not correct because this is usually defined as\nthe moment of involvement for testing. C is not\ncorrect because this is the test oracle. D is not\ncorrect because the test basis is not a method."
+	},
+	{
+		"question": "When the tester verifies the test basis while designing tests early in the lifecycle, which common test objective is being achieved?",
+		"possibleAnswers": {
+			"a": "Gaining confidence",
+			"b": "Finding defects",
+			"c": "Preventing defects",
+			"d": "Providing information for decision making"
+		},
+		"answer": "c",
+		"tip": "",
+		"explanation": "C is correct per the syllabus. The other three are\nachieved primarily by doing dynamic testing. This\nis a bit tricky because you are very likely to find\ndefects while doing this analysis and this may\nlead to either gaining or destroying confidence\nand needing to supply information to the decision\nmakers. However, the wording of the question\nmatches the wording in the syllabus that defines\npreventing defects."
+	},
+	{
+		"question": "When following the fundamental test process, when should the test control activity take place?",
+		"possibleAnswers": {
+			"a": "During the planning activities",
+			"b": "During the implementation and execution activities",
+			"c": "During the monitoring activities",
+			"d": "During all the activities"
+		},
+		"answer": "d",
+		"tip": "",
+		"explanation": "D is correct. Control occurs throughout the\nproject to ensure that it is staying on track based\non the plan and to take any corrective steps that\nmay be necessary. The monitoring information is\nused to determine if control actions are needed."
+	},
+	{
+		"question": "Which of the following is a correct statement?",
+		"possibleAnswers": {
+			"a": "A developer makes a mistake which causes a defect that may be seen as a failure during dynamic testing",
+			"b": "A developer makes an error which results in a failure that may be seen as a fault when the software is executed",
+			"c": "A developer has introduced a failure which results in a defect that may be seen as a mistake during dynamic testing",
+			"d": "A developer makes a mistake which causes a bug that may be seen as a defect when the software is executed"
+		},
+		"answer": "a",
+		"tip": "",
+		"explanation": "A is correct. The developer makes a\nmistake/error which causes a defect/fault/bug\nwhich may cause a failure when the code is\ndynamically tested or executed. B is incorrect\nbecause fault and failure are reversed. C is\nincorrect because failure and mistake are\nreversed. D is incorrect because it’s a failure\nthat’s seen during execution, not the defect itself.\nThe failure is a symptom of the defect."
+	},
+	{
+		"question": "Which of the following is an example of debugging?",
+		"possibleAnswers": {
+			"a": "A tester finds a defect and reports it",
+			"b": "A tester retests a fix from the developer and finds a regression",
+			"c": "A developer finds and fixes a defect",
+			"d": "A developer performs unit testing"
+		},
+		"answer": "c",
+		"tip": "",
+		"explanation": "C is correct. Debugging is what the developer\ndoes to identify the cause of the defect, analyze\nit and fix it. D may involve debugging, if the\ndeveloper finds a defect, but the act of unit\ntesting is not the same as debugging."
+	},
+	{
+		"question": "Which of the following is a true statement about exhaustive testing?",
+		"possibleAnswers": {
+			"a": "It is a form of stress testing",
+			"b": "It is not feasible except in the case of trivial software",
+			"c": "It is commonly done with test automation",
+			"d": "It is normally the responsibility of the developer during unit testing"
+		},
+		"answer": "b",
+		"tip": "",
+		"explanation": "B is correct. Exhaustive testing, all combinations\nof inputs and preconditions, is not feasible unless\nthe software is trivially simple.Otherwise it would\ntake too long and might not even be possible."
+	},
+	{
+		"question": "A new retail product was released to production by your company. Shortly after the release it was apparent that there were numerous problems with the point of sale application. This resulted in a number of customer complaints and negative postings on social media encouraging people to take their business to your competitor. You have investigated the problems and have discovered that the production point of sale equipment is a later model than the model used in testing. The software functions correctly on the old version, but fails on the later model. Given this scenario, what is the root cause and what is the effect?",
+		"possibleAnswers": {
+			"a": "The root cause is the old equipment and the effect is the new equipment",
+			"b": "The root cause is the customer complaints and the effect is the social media postings",
+			"c": "The root cause is conducting the testing on the wrong version of the equipment and the effect is the customer complaints and postings",
+			"d": "The root cause is the software failing on the later model and the effect is the customer complaints"
+		},
+		"answer": "c",
+		"tip": "",
+		"explanation": "C is correct. The root cause is that the testing,\nand maybe the development, were conducted on\nthe wrong version of the POS equipment. The\neffect of the problem is the customer complaints\nand the social media postings."
+	},
+	{
+		"question": "f you need to provide a report showing test case execution coverage of the requirements, what do you\nneed to track?",
+		"possibleAnswers": {
+			"a": "Traceability between the test cases and the requirements",
+			"b": "Coverage of the risk items by test case",
+			"c": "Traceability between the requirements and the risk items\n",
+			"d": "Coverage of the requirements by the test cases that have been designed"
+		},
+		"answer": "a",
+		"tip": "",
+		"explanation": "A is correct. In order to show the test execution\ncoverage of the requirements you will need\ntraceability between the requirements and the\ntest cases. As the test cases are executed this\ntraceability can be used to record tests executed\nagainst the requirements. B is not correct\nbecause it’s looking for requirements coverage,\nnot risk coverage. C is not correct because it’s\nlooking for test execution, not risk items. D is not\ncorrect because it’s looking for test cases that\nhave been executed, not just designed."
+	},
+	{
+		"question": "Which of the following is most correct regarding the test level at which functional tests may be executed?",
+		"possibleAnswers": {
+			"a": "Unit and integration",
+			"b": "Integration and system",
+			"c": "System and acceptance",
+			"d": "All levels"
+		},
+		"answer": "d",
+		"tip": "",
+		"explanation": "D is correct. Functional testing should be\nconducted at all levels."
+	},
+	{
+		"question": "Which of the following is a true statement regarding the V-model lifecycle?",
+		"possibleAnswers": {
+			"a": "Testing involvement starts when the code is complete",
+			"b": "The test process is integrated with the development process",
+			"c": "The software is built in increments and each increment has activities for requirements, design, build and test",
+			"d": "All activities for development and test are completed sequentially"
+		},
+		"answer": "b",
+		"tip": "",
+		"explanation": "B is correct. In the V-Model, testing activities are\npaired with each development activity. A and D\nare not correct. These behaviors are typical of a\nwaterfall model. C is not correct. This is typical of\nan incremental model."
+	},
+	{
+		"question": "Usability testing is an example of which type of testing?",
+		"possibleAnswers": {
+			"a": "Functional",
+			"b": "Non-functional",
+			"c": "Structural",
+			"d": "Change-related"
+		},
+		"answer": "b",
+		"tip": "",
+		"explanation": "B is correct. Usability is one of the non-functional\ntest types according to ISO 25010."
+	},
+	{
+		"question": "What type of testing is normally conducted to verify that a product meets a particular regulatory requirement?",
+		"possibleAnswers": {
+			"a": "Unit testing",
+			"b": "Integration testing",
+			"c": "System testing",
+			"d": "Acceptance testing"
+		},
+		"answer": "d",
+		"tip": "",
+		"explanation": "D is correct per the syllabus. Regulatory\nacceptance is a form of acceptance testing. The\nother types of testing should be conducted as\nwell, but the focus on the compliance with the\nregulatory requirements should occur during\nacceptance testing. It is a good practice to\nconduct this testing as early as possible, but\nformal acceptance by a regulatory agency is\nnormally done during acceptance testing."
+	},
+	{
+		"question": "You have been receiving daily builds from the developers. Even though they are documenting the fixes they are including in each build, you are finding that the fixes either aren’t in the build or are not working. What type of testing is best suited for finding these issues?",
+		"possibleAnswers": {
+			"a": "Unit testing",
+			"b": "System testing",
+			"c": "Confirmation testing",
+			"d": "Regression testing"
+		},
+		"answer": "c",
+		"tip": "",
+		"explanation": "C is correct. Confirmation testing will determine if\na fix is present in a build and if it actually fixes\nthe defect it is supposed to fix. A is not correct\nbecause this would be conducted by the\ndeveloper as they fix the issues. While it might\ncatch a fix that doesn't work, it’s not likely to\ncatch the check-in/build process that is excluding\nthe fix from the build. B is not correct because\nsystem testing will take longer to pinpoint this\nproblem and may result in more troubleshooting\ntime when the problem is discovered again. D is\nnot correct because this is the testing that is\ndone to see if there have been any unintended\nchanges in the software’s behavior."
+	},
+	{
+		"question": "In a formal review, which role is normally responsible for documenting all the open issues?",
+		"possibleAnswers": {
+			"a": "The facilitator",
+			"b": "The author",
+			"c": "The scribe",
+			"d": "The manager"
+		},
+		"answer": "c",
+		"tip": "",
+		"explanation": "C is correct. The scribe is normally responsible\nfor documenting all issues, problems and open points. The author may take notes as well, but\nthat is not their primary role."
+	},
+	{
+		"question": "Which testing technique would be most effective in determining and improving the maintainability of the\ncode (assuming developers fix what is found)?",
+		"possibleAnswers": {
+			"a": "Peer reviews",
+			"b": "Static analysis",
+			"c": "Dynamic testing",
+			"d": "Unit testing"
+		},
+		"answer": "b",
+		"tip": "",
+		"explanation": "B is correct. Static analysis with tools will give\nthe best results for improving maintainability and\nensuring adherence to good coding practices. A\nmay help, but depending on the peer, it may just\nreinforce bad habits. C is unlikely to help\nbecause only failures will be observed, not the\nunderlying code. D may help, but since it’s\nusually done by the developer who wrote the\ncode, it’s unlikely to highlight maintenance\nissues."
+	},
+	{
+		"question": "For a formal review, at what point in the process are the entry and exit criteria defined?",
+		"possibleAnswers": {
+			"a": "Planning",
+			"b": "Review initiation",
+			"c": "Individual review",
+			"d": "Fixing and reporting"
+		},
+		"answer": "a",
+		"tip": "",
+		"explanation": "A is correct. The entry and exit criteria should be\ndefined during the planning step in the review\nprocess. These should be evaluated at each step\nto ensure the product is ready for the next step in\nthe process. B, C and D are not correct because\nthe criteria should already be defined by this\npoint."
+	},
+	{
+		"question": "If the author of the code is leading a code review for other developers and testers, what type of review is it?",
+		"possibleAnswers": {
+			"a": "An informal development review",
+			"b": "A walkthrough",
+			"c": "An inspection",
+			"d": "An audit"
+		},
+		"answer": "b",
+		"tip": "",
+		"explanation": "B is correct. When the author of the document\nbeing reviewed is leading the review, this is a\ntypically a walkthrough. A is not correct because\nthere is a group of people conversing in the\nreview rather than a more formal review meeting.\nC is a formal review type and the facilitator\n(moderator) would lead the review. D is not\ncorrect because an audit is normally conducted\nby a third party external to the team."
+	},
+	{
+		"question": "You are participating in a role-based review session. Your assigned role is that of a senior citizen. The product is an online banking application that is targeted for use on smart phones. You are currently reviewing the user interface of the product with a prototype that works on iPhones. Which of the following is an area that you should review?",
+		"possibleAnswers": {
+			"a": "The speed of response from the banking backend",
+			"b": "The attractiveness of the application",
+			"c": "The size and clarity of the instruction text",
+			"d": "The reliability of the application when the connection is dropped"
+		},
+		"answer": "c",
+		"tip": "",
+		"explanation": "C is correct. As a senior citizen, you should be\nchecking that the size of the instruction text is\nclearly readable and you should verify that the\ninstructions will make sense to a senior citizen. A\nis not correct because this is not particular to\nyour role as senior citizens are generally not as\ntime compressed as younger users. B is not\ncorrect. Although it is nice, attractiveness tends\nto be very subjective and is difficult to evaluate at\na role level. D is not correct because the\nreliability will be assumed by the senior citizen.\nThis should be reviewed by the technical users\nand people on the go who are likely to move\nbetween covered and not covered zones."
+	},
+	{
+		"question": "Which of the following is an extension of equivalence partitioning?",
+		"possibleAnswers": {
+			"a": "Decision tables",
+			"b": "Decision testing",
+			"c": "Boundary value analysis",
+			"d": "State transition testing"
+		},
+		"answer": "c",
+		"tip": "",
+		"explanation": "C is correct. BVA is an extension of EP, looking\nat the boundaries on the edges of the partitions\n(or classes) of values."
+	},
+	{
+		"question": "If test cases are derived from looking at the code, what type of test design technique is being used?",
+		"possibleAnswers": {
+			"a": "Black-box",
+			"b": "White-box",
+			"c": "Specification-based",
+			"d": "Behavior-based"
+		},
+		"answer": "b",
+		"tip": "",
+		"explanation": "B is correct. A, C and D are all black-box and\nuse the specifications or requirements for the\ntest design."
+	},
+	{
+		"question": "Which of the following is a good reason to use experience-based testing?",
+		"possibleAnswers": {
+			"a": "You can find defects that might be missed by more formal techniques",
+			"b": "You can test for defects that only experienced users would encounter",
+			"c": "You can target the developer’s efforts to the areas that users will be more likely to use",
+			"d": "It is supported by strong tools and can be automated"
+		},
+		"answer": "a",
+		"tip": "",
+		"explanation": "A is correct. Experience-based testing is often\nused to fill in the gaps left by the more formal\ntesting techniques. B is not correct because it is used by experienced testers and has nothing to\ndo with the experience level of the users. C is not\ncorrect because it is a test technique, not a\ndevelopment technique. D is not correct. There is\nnot much tool support for these techniques and\nautomation is not usually a goal because the\neffectiveness depends on the experience of the\ntester."
+	},
+	{
+		"question": "If you are using error guessing to target your testing, which type of testing are you doing?",
+		"possibleAnswers": {
+			"a": "Specification-based",
+			"b": "Structure-based",
+			"c": "Experience-based",
+			"d": "Reference-based"
+		},
+		"answer": "c",
+		"tip": "",
+		"explanation": "C is correct. This is an experience-based\ntechnique"
+	},
+	{
+		"question": "If you are testing a module of code, how do you determine the level of decision coverage you have achieved?",
+		"possibleAnswers": {
+			"a": "By taking the number of decisions you have tested and dividing that by the total number of executable statements in the module",
+			"b": "By taking the number of decisions you have tested and dividing that by the total number of decisions in the module",
+			"c": "By taking the number of decisions you have tested and dividing that by the total lines of code in the module",
+			"d": "By taking the number of decision outcomes you have tested and dividing that by the total number of decision outcomes in the module"
+		},
+		"answer": "d",
+		"tip": "",
+		"explanation": "D is correct. Decision coverage looks at the\nnumber of decision outcomes, not just the\ndecision statements."
+	},
+	{
+		"question": "Which of the following best describes the behaviors defined in a use case that should be covered by tests?",
+		"possibleAnswers": {
+			"a": "Positive path and negative path",
+			"b": "Basic, exception and error",
+			"c": "Normal, error, data, and integration",
+			"d": "Control flow, data flow and decision paths"
+		},
+		"answer": "b",
+		"tip": "",
+		"explanation": "B is correct. The basic, exception and error\nbehaviors should be covered with tests for a use\ncase. A good use case should define all of these.\nA is not correct. Positive path equals the basic\nbehavior and negative path equals the error\nbehavior but neither handles the exception\npaths. C and D are not correct as they are\ninvestigating areas that would not be covered in\na use case."
+	},
+	{
+		"question": "You are testing a machine that scores exam papers and assigns grades. Based on the score achieved the grades are as follows: 1-49 = F, 50-59 = D-, 60-69 = D, 70-79 = C, 80-89 = B, 90-100=A If you apply equivalence partitioning, how many test cases will you need to achieve minimum test coverage?",
+		"possibleAnswers": {
+			"a": "6",
+			"b": "8",
+			"c": "10",
+			"d": "12"
+		},
+		"answer": "b",
+		"tip": "",
+		"explanation": "B is correct. You need a test for the invalid too\nlow (0 or less), one for each valid partition, and\none for invalid too high (>100). It may not allow\nyou to enter a value > 100, but it should be\ntested to make sure it provides a proper error."
+	},
+	{
+		"question": "You are testing a machine that scores exam papers and assigns grades. Based on the score achieved the grades are as follows: 1-49 = F, 50-59 = D-, 60-69 = D, 70-79 = C, 80-89 = B, 90-100=A If you apply two-value boundary value analysis, how many test cases will you need to achieve minimum test coverage?",
+		"possibleAnswers": {
+			"a": "8",
+			"b": "10",
+			"c": "12",
+			"d": "14"
+		},
+		"answer": "d",
+		"tip": "",
+		"explanation": "D is correct. You need the following test cases:\n0, 1, 49, 50, 59, 60, 69, 70, 79, 80, 89, 90, 100,\n101"
+	},
+	{
+		"question": "You have been given the following requirement:\nA user must log in to the system with a valid username and password. If they fail to enter the correct combination three times, they will receive an error and will have to wait 10 minutes before trying again. The test terminates when the user successfully logs in.\nHow many test cases are needed to provide 100% state transition coverage?",
+		"possibleAnswers": {
+			"a": "1",
+			"b": "2",
+			"c": "4",
+			"d": "5"
+		},
+		"answer": "b",
+		"tip": "",
+		"explanation": "B is correct. Per the diagram below, only two\ntests are needed: Login, Fail, Login, Success,\nHome and Login, Fail, Fail, Fail = 3, Wait, Login,\nHome"
+	},
+	{
+		"question": "You are testing a thermostat for a heating/air conditioning system. You have been given the following requirements:\n• When the temperature is below 70 degrees, turn on the heating system\n• When the temperature is above 75 degrees, turn on the air conditioning system\n• When the temperature is between 70 and 75 degrees, inclusive, turn on fan only\nWhich of the following is the minimum set of test temperature values to achieve 100% two-value boundary value analysis coverage?",
+		"possibleAnswers": {
+			"a": "70, 75",
+			"b": "65, 72, 80",
+			"c": "69, 70, 75, 76",
+			"d": "70, 71, 74, 75, 76"
+		},
+		"answer": "c",
+		"tip": "",
+		"explanation": "C is correct.\nFor the heating system, the values to test are 69,\n70 For the air conditioning system, the values are\n75, 76\nFor the fan only, the values are 69, 70, 75, 76\n<-- 69 | 70 – 75 | 76 à\nThe proper test set combines all these values,\n69, 70, 75, 76"
+	},
+	{
+		"question": "A metric that tracks the number of test cases executed is gathered during which activity in the test process?",
+		"possibleAnswers": {
+			"a": "Planning",
+			"b": "Implementation",
+			"c": "Execution",
+			"d": "Reporting"
+		},
+		"answer": "c",
+		"tip": "",
+		"explanation": "C is correct. Test execution metrics are gathered\nduring the Test Execution activity. These metrics\nare used in reporting."
+	},
+	{
+		"question": "Who is normally responsible for the creation and update of a test plan for a project?",
+		"possibleAnswers": {
+			"a": "The project manager",
+			"b": "The test manager",
+			"c": "The tester",
+			"d": "The product owner"
+		},
+		"answer": "b",
+		"tip": "",
+		"explanation": "B is correct per the syllabus. A is not correct. The\nPM is usually responsible for the overall project\nplan. C is not correct. The tester may contribute\nto the plan but is generally not responsible for\nwriting it. D is not correct. The PO may contribute\nto the plan and review the plan, but they do not\nnormally write the plan."
+	},
+	{
+		"question": "Which of the following variances should be explained in the Test Summary Report?",
+		"possibleAnswers": {
+			"a": "The variances between the weekly status reports and the test exit criteria",
+			"b": "The variances between the defects found and the defects fixed",
+			"c": "The variances between what was planned for testing and what was actual",
+			"d": "The variances between the test cases executed and the total number of test cases"
+		},
+		"answer": "c",
+		"tip": "",
+		"explanation": "C is correct. The variances or deviations\nbetween the test plan and the testing that was\nactually done must be explained in the test\nsummary report. A is not correct because if the\nweekly status reports have been tracking\nincorrectly to the test exit criteria, something is\nwrong and should have been caught a lot earlier.\nB is not correct because this information should\nbe included in the test summary report, but a\nvariance is expected. D is not correct because\nthis should be tracked in the metrics section of\nthe report rather than as a variance."
+	},
+	{
+		"question": "Which of the following is a project risk?",
+		"possibleAnswers": {
+			"a": "A module that performs incorrect calculations due to a defect in a formula",
+			"b": "A failed performance test",
+			"c": "An issue with the interface between the system under test and a peripheral device",
+			"d": "A problem with the development manager which is resulting in his rejecting all defect reports"
+		},
+		"answer": "d",
+		"tip": "",
+		"explanation": "D is a project risk. The other three are product\nrisks."
+	},
+	{
+		"question": "Which of the following is a benefit of test independence?",
+		"possibleAnswers": {
+			"a": "Testers have different biases than developers",
+			"b": "Testers are isolated from the development team",
+			"c": "Testers lack information about the test object",
+			"d": "Testers will accept responsibility for quality"
+		},
+		"answer": "a",
+		"tip": "",
+		"explanation": "A is correct. Testers bring different biases than\nthe developers have, so they may be able to see\ndifferent types of failures and check for\nassumptions the developers may have made. B\nand C are disadvantages. D is definitely a\ndisadvantage and is sometimes seen in the\ndevelopers losing their sense of responsibility for\nquality."
+	},
+	{
+		"question": "You are working in a team of testers who are all writing test cases. You have noticed that there is a significant inconsistency with the length and amount of detail in the different test cases. Where should the test case guidelines have been documented?",
+		"possibleAnswers": {
+			"a": "The test plan",
+			"b": "The test approach",
+			"c": "The test case template",
+			"d": "The project plan"
+		},
+		"answer": "a",
+		"tip": "",
+		"explanation": "A is correct. The level of detail and structure for\nthe test documentation should be included in the\ntest plan."
+	},
+	{
+		"question": "Which of the following is an example of a good exit criterion from system testing?",
+		"possibleAnswers": {
+			"a": "All tests should be completed",
+			"b": "The project budget should be spent",
+			"c": "All defects should be fixed",
+			"d": "All severity 1 defects must be resolved"
+		},
+		"answer": "d",
+		"tip": "",
+		"explanation": "D is correct. This is measurable and clear. A is\nnot correct because completed is not a clear\nterm and this might not be a reasonable goal. B\nis not correct because spending the budget is\ngenerally not the goal and you wouldn’t expect\nthe budget to be spent when system testing is\ndone because that leaves no money for\nacceptance testing or roll out. C is not correct"
+	},
+	{
+		"question": "You have received the following description section in a defect report:\nThe report executed per the attached steps, but the data was incorrect. For example, the information in column 1 was wrong. See the attached screenshot. This report is critical to the users and they will be unable to do their jobs without this information.\nWhat is the biggest problem with this defect report?",
+		"possibleAnswers": {
+			"a": "The developer won’t know how important the problem is",
+			"b": "The developer won’t know how to repeat the test",
+			"c": "The developer won’t be able to see what the tester is saying is wrong",
+			"d": "The developer won’t know what the tester expected to see"
+		},
+		"answer": "d",
+		"tip": "",
+		"explanation": "D is correct. From this information, the developer\nonly knows the tester thinks the information is\nwrong, but it’s not clear what was expected. A is\nincorrect because, although vague, the incident\nreport seems to indicate this is an important\nproblem. B is incorrect because the steps are\nattached (or so it says). C is incorrect because\nthe screen shot should indicate column 1 that is\nwrong."
+	},
+	{
+		"question": "Why is it important to define usage guidelines for a new tool?",
+		"possibleAnswers": {
+			"a": "Because this is a proven success factor in tool deployment",
+			"b": "Because this will ensure the licensing restrictions are enforced",
+			"c": "Because management needs to understand the details of the tool usage",
+			"d": "Because this will provide the information needed for the cost/benefit analysis"
+		},
+		"answer": "a",
+		"tip": "",
+		"explanation": "A is correct. This is one of the success factors in\ntool deployment. B is not correct because the\nusage guidelines are for the actual users, not the\noverall organization which is where the licensing\nrequirements might be a concern. C is not\ncorrect because management is not focusing on\nthe details. D is not correct because the\ncost/benefit information needs to be gathered\nlong before the tool is procured."
+	},
+	{
+		"question": "Which of the following is an example of a tool that supports static testing?",
+		"possibleAnswers": {
+			"a": "A tool that assists with tracking the results of reviews",
+			"b": "A defect tracking tool",
+			"c": "A test automation tool",
+			"d": "A tool that helps design test cases for security testing"
+		},
+		"answer": "a",
+		"tip": "",
+		"explanation": "A is correct. Reviews are a form of static testing\nand a tool that supports reviews is an example of\na tool that supports static testing. B is an\nexample of a management tool used for defect\nmanagement. C is an example of a test\nexecution tool. D is an example of a test design\ntool."
 	}
 ]

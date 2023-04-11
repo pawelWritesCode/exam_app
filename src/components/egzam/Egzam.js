@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 import Question from "../question/Question.js"
 import Timer from "../timer/Timer.js"
@@ -16,6 +16,7 @@ function Exam({questions, finishEgzam}) {
 
     const [index, setIndex] = useState(0);
     const [progress, setProgress] = useState(setInitialProgress())
+    const egzamDivReference = useRef(null);
 
     function handleNextClick() {
         if (index < questions.length - 1) {
@@ -52,11 +53,25 @@ function Exam({questions, finishEgzam}) {
 
     function computeDeadline(questions) {
         let deadline = new Date();
-        return deadline.setMinutes(deadline.getMinutes() + 2 * questions.length)
+        return deadline.setMinutes(deadline.getMinutes() + 1.5 * questions.length)
     }
 
+    function handleKeyDown(e) {
+        if (e.key === 'ArrowLeft') {
+            handlePreviousClick()
+        }
+
+        if (e.key === 'ArrowRight') {
+            handleNextClick()
+        }
+    }
+
+    useEffect(() => {
+        egzamDivReference.current.focus();
+    }, []);
+
     return (
-        <div className="egzam">
+        <div className="egzam" tabIndex={0} ref={egzamDivReference} onKeyDown={handleKeyDown}>
 
             <h3>
                 ({index + 1} of {questions.length})
@@ -81,6 +96,7 @@ function Exam({questions, finishEgzam}) {
             <button onClick={handleNextClick}>
                 Next
             </button>
+            <hr />
             <button onClick={handleFinishClick}>Finish</button>
         </div>
     )

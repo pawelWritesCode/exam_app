@@ -23,9 +23,15 @@ function Question({question, possibleAnswers, answer, explanation, pickedAnswer,
         )
     }
 
+    function format(question) {
+        const lines = question.split("\n")
+        return lines.map((line) => <p>{line}</p>)
+    }
+
+    //TODO: Format question so /n are formatted to real new lines
     return (
         <div>
-            <p className="question">Question: {question}</p>
+            <div className="question">Question: {format(question)}</div>
             {formatPossibleAnswers(possibleAnswers)}
             {
                 pickedAnswer !== "" ? (
